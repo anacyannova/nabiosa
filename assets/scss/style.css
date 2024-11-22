@@ -11973,12 +11973,16 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
+/******** variables de contenido ********/
+.margen {
+  margin: 0 auto;
+  width: 90%;
+}
+
 body {
-  width: 100%;
   color: #000000;
 }
 
-/***************HEADER****************/
 /*************NAVEGADOR***************/
 .navegador2 {
   background-color: #F9FAFB;
@@ -12007,6 +12011,37 @@ nav {
 .fa-solid {
   font-family: "Work Sans", serif;
   font-size: 16px;
+}
+
+li .carrito {
+  display: inline-block;
+}
+li .carrito svg {
+  top: 3%; /**********toi peleando con este carro desgraciao*************/
+}
+
+.mascotas:hover {
+  text-decoration: underline;
+  padding-right: 3px;
+}
+
+/***************banner****************/
+.banner {
+  background-image: url(../img/banner1.png);
+  width: auto;
+  height: auto;
+}
+
+.barizq {
+  background-color: #F6F9FF;
+}
+
+.bander {
+  background-color: #1A3572;
+}
+.bander img .shibainu {
+  height: auto;
+  width: auto;
 }
 
 /*************FOOTER***************/
