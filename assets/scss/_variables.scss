@@ -1,11 +1,18 @@
-// Acá declaro todos los valores de mis variables
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 //Colores ejemplo: 
-$color-01: #2c3e50;
-$color-02: #2980b9;
+$color-01: #FFFFFF;
+$color-02: #F4F7FF;
+$color-03: #1A3572;
+$color-04: #000000;
+$color-05: #858585;
+$color-06: #D5B91F;
+$color-07: #F9FAFB;
+//$color-08: ;
+
 
 
 // Fuentes ejemplo:
-$font-texto: "Roboto Slab", serif;
-$font-titulo: "Oswald", sans-serif;
+$font-texto: "Work Sans", serif;
+//$font-titulo: "xxx", sans-serif;
 $medida-font: 1rem;
