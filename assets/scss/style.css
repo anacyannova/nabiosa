@@ -12066,6 +12066,12 @@ li .carrito svg {
   z-index: 10;
 }
 
+.boton-perfil {
+  background-color: #1A3572;
+  color: white;
+  border: none;
+}
+
 .ban {
   background-color: #1A3572;
 }
@@ -12098,12 +12104,6 @@ li .carrito svg {
 .marcas {
   height: 800px;
   padding-top: 100px;
-}
-
-.boton-perfil {
-  background-color: #1A3572;
-  color: white;
-  border: none;
 }
 
 /*************FOOTER***************/
