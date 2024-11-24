@@ -29,7 +29,7 @@ nav{
 }
 
 .search-bar {
-    width: 400px; 
+    width: 500px; 
     padding-left: 35px; 
     border-radius: 0%;
 }
@@ -58,25 +58,79 @@ li .carrito{
 
 /***************banner****************/
 .banner{
-    background-image: url(../img/banner1.png);
-    width: auto;
-    height: auto;
+    width: 100%;
 }
 .barizq{
-    background-color: $color-08;
+    background-color: $color-02;
+}
+.alimenta{
+    padding-top: 120px;
+    padding-left: 60px;
+    font-family: $font-texto;
+    h2{
+        justify-content: flex-start;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    p{
+        font-size: 24px;
+        padding-bottom: 60px;
+        color: $color-05;
+        font-weight: 600;
+    }
+    .button{
+        font-size: 16px;
+        padding: 20px 45px;
+        background-color: $color-03;
+        text-decoration: none;
+        color: $color-01;
+    }
 }
 
 .bander {
     background-color: $color-03;
-    img .shibainu{
-        height: auto;
-        width: auto;
+    z-index: 1;
+    .perri{
+        z-index: 10;
     }
 }
+<<<<<<< Updated upstream
 .boton-perfil {
     background-color: $color-03;
     color: white;  
     border: none;
+=======
+.ban {
+    background-color: $color-03;
+}
+
+/*************HOME BODY***************/
+.publicidad{
+    height: 550px;
+    padding-top: 120px;
+}
+.slide{
+    padding-left: 20px;
+}
+.publizq{
+    padding-left: 50px;
+    h3{
+        padding-bottom: 20px;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    h4{
+        padding-bottom: 20px;
+    }
+    p{
+        padding-right: 30px;
+    }
+}
+
+.marcas{
+    height: 800px;
+    padding-top: 100px;
+>>>>>>> Stashed changes
 }
 
 /*************FOOTER***************/

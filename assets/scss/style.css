@@ -11994,7 +11994,7 @@ nav {
 }
 
 .search-bar {
-  width: 400px;
+  width: 500px;
   padding-left: 35px;
   border-radius: 0%;
 }
@@ -12027,21 +12027,77 @@ li .carrito svg {
 
 /***************banner****************/
 .banner {
-  background-image: url(../img/banner1.png);
-  width: auto;
-  height: auto;
+  width: 100%;
 }
 
 .barizq {
-  background-color: #F6F9FF;
+  background-color: #F4F7FF;
+}
+
+.alimenta {
+  padding-top: 120px;
+  padding-left: 60px;
+  font-family: "Work Sans", serif;
+}
+.alimenta h2, .alimenta .h2 {
+  justify-content: flex-start;
+  font-weight: 700;
+  font-size: 48px;
+}
+.alimenta p {
+  font-size: 24px;
+  padding-bottom: 60px;
+  color: #858585;
+  font-weight: 600;
+}
+.alimenta .button {
+  font-size: 16px;
+  padding: 20px 45px;
+  background-color: #1A3572;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .bander {
   background-color: #1A3572;
+  z-index: 1;
 }
-.bander img .shibainu {
-  height: auto;
-  width: auto;
+.bander .perri {
+  z-index: 10;
+}
+
+.ban {
+  background-color: #1A3572;
+}
+
+/*************HOME BODY***************/
+.publicidad {
+  height: 550px;
+  padding-top: 120px;
+}
+
+.slide {
+  padding-left: 20px;
+}
+
+.publizq {
+  padding-left: 50px;
+}
+.publizq h3, .publizq .h3 {
+  padding-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.publizq h4, .publizq .h4 {
+  padding-bottom: 20px;
+}
+.publizq p {
+  padding-right: 30px;
+}
+
+.marcas {
+  height: 800px;
+  padding-top: 100px;
 }
 
 .boton-perfil {
