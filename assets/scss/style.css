@@ -12044,5 +12044,11 @@ li .carrito svg {
   width: auto;
 }
 
+.boton-perfil {
+  background-color: #1A3572;
+  color: white;
+  border: none;
+}
+
 /*************FOOTER***************/
 /*************RESPONSIVE***************//*# sourceMappingURL=style.css.map */
