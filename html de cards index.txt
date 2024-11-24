@@ -1,0 +1,145 @@
+<!------ logo de marcas IMAGENES ----->
+            <!---------primera fila------->
+            <div class="row">
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/broadline.png" class="card-img-top" alt="broadline">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/frontline.png" class="card-img-top" alt="frontline">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/masterdog.png" class="card-img-top" alt="masterdog">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/doko.png" class="card-img-top" alt="doko">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/bestbalance.png" class="card-img-top" alt="bestbalance">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/bombay.png" class="card-img-top" alt="bombay">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/canadulto.png" class="card-img-top" alt="canadulto">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/dogbuffet.png" class="card-img-top" alt="dogbuffet">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/sabrocat.png" class="card-img-top" alt="sabrocat">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/loops.png" class="card-img-top" alt="loops">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/masko.png" class="card-img-top" alt="masko">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/maskocat.png" class="card-img-top" alt="maskocat">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/vitalcanlineav.png" class="card-img-top" alt="linea V">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/catchow.png" class="card-img-top" alt="catchow">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/champ.png" class="card-img-top" alt="champ">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/nomade.png" class="card-img-top" alt="nomade">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/minninos.png" class="card-img-top" alt="minninos">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/mastercat.png" class="card-img-top" alt="mastercat">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/championcat.png" class="card-img-top" alt="championcat">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/doncucho.png" class="card-img-top" alt="doncucho">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/cubicat.png" class="card-img-top" alt="cubicat">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/dogchow.png" class="card-img-top" alt="dogchow">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/dino.png" class="card-img-top" alt="dino">
+                </div>
+            </div><!--cierre row-->
+
+            <!---------segunda fila------->
+            <div class="row">
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/nutribalance.png" class="card-img-top" alt="nutribalance">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/optimum.png" class="card-img-top" alt="optimum">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/pedigree.png" class="card-img-top" alt="pedigree">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/vitalcanpremium.png" class="card-img-top" alt="premium">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/proplan.png" class="card-img-top" alt="proplan">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/rabito.png" class="card-img-top" alt="rabito">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/whiskas.png" class="card-img-top" alt="whiskas">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/raza.png" class="card-img-top" alt="raza">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/royalcanin.png" class="card-img-top" alt="royalcanin">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/sabrokan.png" class="card-img-top" alt="sabrokan">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/stayhappy.png" class="card-img-top" alt="stayhappy">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/topk9.png" class="card-img-top" alt="topk9">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/tyson.png" class="card-img-top" alt="tyson">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/eukanuba.png" class="card-img-top" alt="eukanuba">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/felines.png" class="card-img-top" alt="felines">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/gati.png" class="card-img-top" alt="gati">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/guauforte.png" class="card-img-top" alt="guauforte">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/canaima.png" class="card-img-top" alt="canaima">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/aquafish.png" class="card-img-top" alt="aquafish">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/cubidog.png" class="card-img-top" alt="cubidog">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/adclean.png" class="card-img-top" alt="adclean">
+                </div>
+                <div class="card" style="width: 18rem; border: none;">
+                    <img src="assets/img/cachupin.png" class="card-img-top" alt="cachupin">
+                </div>
+            </div><!--cierre row-->
+
+        </div><!--cierre container-->

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/******** variables de contenido ********/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/******** variables de contenido ********/
 
 .margen{
     margin: 0 auto;
@@ -17,7 +17,7 @@ body{
     color: $color-04;
 }
 
-/*************NAVEGADOR***************/
+/************* NAVEGADOR ***************/
 .navegador2{
     background-color: $color-07;
 }
@@ -56,7 +56,7 @@ li .carrito{
     padding-right: 3px;
 }
 
-/***************banner****************/
+/*************** BANNER ****************/
 .banner{
     width: 100%;
 }
@@ -78,13 +78,16 @@ li .carrito{
         color: $color-05;
         font-weight: 600;
     }
-    .button{
-        font-size: 16px;
-        padding: 20px 45px;
-        background-color: $color-03;
-        text-decoration: none;
-        color: $color-01;
-    }
+}
+.felicidad{
+    color: $color-06;
+}
+
+.button{
+    @include button
+}
+.button:hover{
+    @include button-hover
 }
 
 .bander {
@@ -94,17 +97,15 @@ li .carrito{
         z-index: 10;
     }
 }
-<<<<<<< Updated upstream
-.boton-perfil {
-    background-color: $color-03;
-    color: white;  
-    border: none;
-=======
+
 .ban {
     background-color: $color-03;
 }
+/************* INICIO - REGISTRO ***************/
 
-/*************HOME BODY***************/
+
+
+/************* HOME ***************/
 .publicidad{
     height: 550px;
     padding-top: 120px;
@@ -129,10 +130,152 @@ li .carrito{
 
 .marcas{
     height: 800px;
-    padding-top: 100px;
->>>>>>> Stashed changes
+    padding-top: 60px;
+    padding-left: 100px;
 }
 
-/*************FOOTER***************/
+.logomarca{
+    padding: 5px;
+}
 
-/*************RESPONSIVE***************/
+/**** tarjetas ****/
+.tarjetas{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/background2.png);
+}
+
+
+.cards .head{
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+.cards .img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    padding: 0 30px;
+    bottom: -20%;
+    left: 47%;
+    transform: translate(-50%);
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.description{
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+    h2{
+        font-size: 24px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    
+    p{
+        font-size: 16px;
+        font-weight: 300;
+        padding: 0 80px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        line-height: 150%;
+    }
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-01;
+    color: currentColor;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    z-index: 0;
+    a{
+        color: $color-04;
+    }
+}
+.svg{
+    z-index: 10;
+}
+/*****tendencias*****/
+.tendencias{
+    height: 800px;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+/********galeria********/
+.galeria{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    p{
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}
+.img{
+    justify-content: center;
+    align-items: center;
+}
+.imggal{
+    padding: 20px;
+}
+/****encuentra tu comuna****/
+.comuna{
+    padding: 60px 0px 40px 100px;
+}
+/***blog**/
+.blog{
+    text-align: center;
+    height:auto;
+    padding: 60px 0;
+}
+
+.blogsito{
+    padding: 50px 0px;
+}
+
+.ultimoboton{
+    padding: 60px 0px;
+}
+/************* PRODUCTO ***************/
+
+
+/************* CARRITO ***************/
+
+
+/************* PERROS ***************/
+
+
+/************* GATOS ***************/
+
+
+/************* SOBRE NOSOTROS ***************/
+
+
+/************* DESPACHOS ***************/
+
+
+/************* TERMINOS Y CONDICIONES ***************/
+
+
+/************* BLOG ***************/
+
+
+/************* PERFIL ***************/
+.boton-perfil {
+    background-color: $color-03;
+    color: white;  
+    border: none;
+}
+
+/************* FOOTER ***************/
+
+
+/************* RESPONSIVE ***************/

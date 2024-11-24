@@ -11967,13 +11967,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/******** variables de contenido ********/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/******** variables de contenido ********/
 .margen {
   margin: 0 auto;
   width: 90%;
@@ -11983,7 +11983,7 @@ body {
   color: #000000;
 }
 
-/*************NAVEGADOR***************/
+/************* NAVEGADOR ***************/
 .navegador2 {
   background-color: #F9FAFB;
 }
@@ -12025,7 +12025,7 @@ li .carrito svg {
   padding-right: 3px;
 }
 
-/***************banner****************/
+/*************** BANNER ****************/
 .banner {
   width: 100%;
 }
@@ -12050,12 +12050,22 @@ li .carrito svg {
   color: #858585;
   font-weight: 600;
 }
-.alimenta .button {
+
+.felicidad {
+  color: #D5B91F;
+}
+
+.button {
   font-size: 16px;
   padding: 20px 45px;
   background-color: #1A3572;
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.button:hover {
+  background-color: #E4ECFF;
+  color: #000000;
 }
 
 .bander {
@@ -12070,7 +12080,8 @@ li .carrito svg {
   background-color: #1A3572;
 }
 
-/*************HOME BODY***************/
+/************* INICIO - REGISTRO ***************/
+/************* HOME ***************/
 .publicidad {
   height: 550px;
   padding-top: 120px;
@@ -12097,14 +12108,140 @@ li .carrito svg {
 
 .marcas {
   height: 800px;
-  padding-top: 100px;
+  padding-top: 60px;
+  padding-left: 100px;
 }
 
+.logomarca {
+  padding: 5px;
+}
+
+/**** tarjetas ****/
+.tarjetas {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/background2.png);
+}
+
+.cards .head {
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.cards .img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  padding: 0 30px;
+  bottom: -20%;
+  left: 47%;
+  transform: translate(-50%);
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+.description {
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.description h2, .description .h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.description p {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 80px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  line-height: 150%;
+}
+
+.circle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  color: currentColor;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  z-index: 0;
+}
+.circle a {
+  color: #000000;
+}
+
+.svg {
+  z-index: 10;
+}
+
+/*****tendencias*****/
+.tendencias {
+  height: 800px;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+/********galeria********/
+.galeria {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.galeria p {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.img {
+  justify-content: center;
+  align-items: center;
+}
+
+.imggal {
+  padding: 20px;
+}
+
+/****encuentra tu comuna****/
+.comuna {
+  padding: 60px 0px 40px 100px;
+}
+
+/***blog**/
+.blog {
+  text-align: center;
+  height: auto;
+  padding: 60px 0;
+}
+
+.blogsito {
+  padding: 50px 0px;
+}
+
+.ultimoboton {
+  padding: 60px 0px;
+}
+
+/************* PRODUCTO ***************/
+/************* CARRITO ***************/
+/************* PERROS ***************/
+/************* GATOS ***************/
+/************* SOBRE NOSOTROS ***************/
+/************* DESPACHOS ***************/
+/************* TERMINOS Y CONDICIONES ***************/
+/************* BLOG ***************/
+/************* PERFIL ***************/
 .boton-perfil {
   background-color: #1A3572;
   color: white;
   border: none;
 }
 
-/*************FOOTER***************/
-/*************RESPONSIVE***************//*# sourceMappingURL=style.css.map */
+/************* FOOTER ***************/
+/************* RESPONSIVE ***************//*# sourceMappingURL=style.css.map */

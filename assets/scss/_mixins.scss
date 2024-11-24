@@ -1,1 +1,20 @@
 // acá definimos funciones que vamos a reutilizar en más de una parte del proyecto
+@mixin button {
+    font-size: 16px;
+    padding: 20px 45px;
+    background-color: $color-03;
+    text-decoration: none;
+    color: $color-01;
+}
+
+@mixin button-hover {
+    background-color: $color-09;
+    color: $color-04;
+}
+
+@mixin h5{
+    font-family: $font-texto;
+}
+@mixin p{
+    font-family: $font-texto;
+}
