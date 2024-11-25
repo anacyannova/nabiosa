@@ -12256,6 +12256,10 @@ li .carrito svg {
   text-decoration: none;
   color: #000000;
 }
+.blogmascotas a:hover {
+  text-decoration: underline;
+  color: #1A3572;
+}
 
 .ultimoboton {
   padding: 80px 0 120px 0;
@@ -12272,9 +12276,37 @@ li .carrito svg {
 /********************************************* PERFIL ****************************************/
 .boton-perfil {
   background-color: #1A3572;
-  color: white;
+  color: #1A3572;
   border: none;
 }
 
-/************* FOOTER ***************/
+/*************************************** FOOTER ***********************************************/
+.footer {
+  width: 90%;
+}
+
+.info-footer a {
+  text-decoration: none;
+  color: #4B5563;
+  font-size: 14px;
+}
+.info-footer a:hover {
+  text-decoration: none;
+  color: #1A3572;
+}
+.info-footer li {
+  list-style: none;
+  padding: 5px 0;
+}
+.info-footer p {
+  font-size: 13px;
+}
+
+.minifooter {
+  padding: 15px 0;
+}
+.minifooter p {
+  font-size: 16px;
+}
+
 /************* RESPONSIVE ***************//*# sourceMappingURL=style.css.map */

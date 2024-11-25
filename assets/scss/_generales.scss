@@ -279,6 +279,10 @@ li .carrito{
         text-decoration: none;
         color: $color-04;
     }
+    a:hover{
+        text-decoration: underline;
+        color:$color-03;
+    }
 }
 
 .ultimoboton{
@@ -311,11 +315,39 @@ li .carrito{
 /********************************************* PERFIL ****************************************/
 .boton-perfil {
     background-color: $color-03;
-    color: white;  
+    color: $color-03;  
     border: none;
 }
 
-/************* FOOTER ***************/
+/*************************************** FOOTER ***********************************************/
+.footer{
+    width: $ancho-pantalla;
+}
+.info-footer{
+    a{
+        text-decoration: none;
+        color:$color-10;
+        font-size: 14px;
+    }
+    a:hover{
+        text-decoration: none;
+        color:$color-03;
+    }
+    li{
+        list-style: none;
+        padding: 5px 0;
+    }
+    p{
+        font-size: 13px;
+    }
+}
+.minifooter{
+    padding: 15px 0;
+    p{
+        font-size: 16px;
+    }
+}
+
 
 
 /************* RESPONSIVE ***************/
