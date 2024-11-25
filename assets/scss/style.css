@@ -12016,13 +12016,17 @@ nav {
 li .carrito {
   display: inline-block;
 }
-li .carrito svg {
-  top: 3%; /*toi peleando con este carro desgraciao*/
+li .carrito .bi-cart {
+  top: 2%; /*toi peleando con este carro desgraciao*/
 }
 
 .mascotas:hover {
   text-decoration: underline;
   padding-right: 3px;
+}
+
+.bi-chevron-down {
+  padding-left: 5px;
 }
 
 /******************************************* INICIO - REGISTRO *********************************/
@@ -12071,9 +12075,16 @@ li .carrito svg {
 .bander {
   background-color: #1A3572;
   z-index: 1;
+  position: relative;
+  min-height: 455px;
 }
-.bander .perri {
+
+.perri {
   z-index: 10;
+  overflow: clip;
+  left: -108px;
+  position: absolute;
+  top: -10px;
 }
 
 .ban {
@@ -12214,6 +12225,26 @@ li .carrito svg {
   padding: 60px 0px 40px 100px;
 }
 
+.comunas {
+  width: 500px;
+  border-radius: 0%;
+  background-color: #1A3572;
+  color: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.comunas:hover {
+  background-color: #E4ECFF;
+  color: #000000;
+}
+
+.comunas2 {
+  width: 500px;
+  border-radius: 0%;
+  background-color: #F9FAFB;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 /************blog**********/
 .blog {
   text-align: center;
@@ -12274,6 +12305,10 @@ li .carrito svg {
 /************************************** TERMINOS Y CONDICIONES *******************************/
 /*********************************************** BLOG ****************************************/
 /********************************************* PERFIL ****************************************/
+.perfil {
+  padding-bottom: 90px;
+}
+
 .boton-perfil {
   background-color: #1A3572;
   color: #1A3572;
@@ -12283,6 +12318,8 @@ li .carrito svg {
 /*************************************** FOOTER ***********************************************/
 .footer {
   width: 90%;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .info-footer a {
@@ -12307,6 +12344,23 @@ li .carrito svg {
 }
 .minifooter p {
   font-size: 16px;
+}
+.minifooter a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #4B5563;
+}
+.minifooter a:hover {
+  text-decoration: none;
+  color: #1A3572;
+}
+
+.minifootercen a {
+  padding-right: 21px;
+}
+
+.minifooterder a .face {
+  padding-left: 21px;
 }
 
 /************* RESPONSIVE ***************//*# sourceMappingURL=style.css.map */
