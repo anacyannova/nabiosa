@@ -12119,7 +12119,6 @@ li .carrito svg {
 
 /**** tarjetas ****/
 .tarjetas {
-  width: 100%;
   align-items: center;
   justify-content: center;
   background-image: url(../img/background2.png);
@@ -12127,7 +12126,6 @@ li .carrito svg {
 
 .cards .head {
   height: 150px;
-  width: 100%;
   position: relative;
 }
 
@@ -12190,7 +12188,7 @@ li .carrito svg {
   padding-left: 100px;
 }
 
-/********galeria********/
+/********galeria de productos********/
 .galeria {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -12198,15 +12196,6 @@ li .carrito svg {
 .galeria p {
   text-transform: uppercase;
   font-size: 20px;
-}
-
-.img {
-  justify-content: center;
-  align-items: center;
-}
-
-.imggal {
-  padding: 20px;
 }
 
 /****encuentra tu comuna****/
@@ -12227,6 +12216,32 @@ li .carrito svg {
 
 .ultimoboton {
   padding: 60px 0px;
+}
+
+/* Espaciado inferior para las imágenes */
+.spaced-img {
+  margin-bottom: -5px; /* Espacio entre la imagen y la tarjeta */
+}
+
+/* Estilos para la tarjeta blanca */
+.custom-card {
+  position: relative; /* Posición relativa para ajustes */
+  background-color: white; /* Fondo blanco */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  text-align: center; /* Centrar texto */
+  width: 90%; /* Ancho de la tarjeta */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Ajustes opcionales: Puedes ajustar la posición de la tarjeta */
+.custom-card h5, .custom-card .h5 {
+  margin-bottom: 10px; /* Espaciado debajo del título */
+}
+
+.custom-card p {
+  margin-bottom: 10px; /* Espaciado debajo del párrafo */
 }
 
 /************* PRODUCTO ***************/
