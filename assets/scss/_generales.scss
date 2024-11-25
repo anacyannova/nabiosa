@@ -17,7 +17,7 @@ body{
     color: $color-04;
 }
 
-/************* NAVEGADOR ***************/
+/************************************************* NAVEGADOR ************************************/
 .navegador2{
     background-color: $color-07;
 }
@@ -48,7 +48,7 @@ nav{
 li .carrito{
     display: inline-block;
     svg{
-        top: 3%; /**********toi peleando con este carro desgraciao*************/
+        top: 3%; /*toi peleando con este carro desgraciao*/
     }
 }
 .mascotas:hover {
@@ -56,7 +56,12 @@ li .carrito{
     padding-right: 3px;
 }
 
-/*************** BANNER ****************/
+/******************************************* INICIO - REGISTRO *********************************/
+
+
+
+/***************************************** HOME ************************************************/
+/***********BANNER perrito ********/
 .banner{
     width: 100%;
 }
@@ -69,14 +74,12 @@ li .carrito{
     font-family: $font-texto;
     h2{
         justify-content: flex-start;
-        font-weight: 700;
         font-size: 48px;
     }
     p{
         font-size: 24px;
         padding-bottom: 60px;
         color: $color-05;
-        font-weight: 600;
     }
 }
 .felicidad{
@@ -100,11 +103,8 @@ li .carrito{
 .ban {
     background-color: $color-03;
 }
-/************* INICIO - REGISTRO ***************/
 
-
-
-/************* HOME ***************/
+/************publicidad slider**********/
 .publicidad{
     height: 550px;
     padding-top: 120px;
@@ -117,7 +117,6 @@ li .carrito{
     h3{
         padding-bottom: 20px;
         font-size: 32px;
-        font-weight: 600;
     }
     h4{
         padding-bottom: 20px;
@@ -127,18 +126,18 @@ li .carrito{
     }
 }
 
+/************marcas**********/
+
 .marcas{
-    height: 800px;
-    padding-top: 60px;
-    padding-left: 100px;
-    padding-top: 100px;
+    height: auto;
+    padding: 100px 0 100px 100px;
 }
 
 .logomarca{
     padding: 5px;
 }
 
-/**** tarjetas ****/
+/*********tarjetas*******/
 .tarjetas{
 
     align-items: center;
@@ -171,13 +170,11 @@ li .carrito{
     
     h2{
         font-size: 24px;
-        font-weight: 600;
         padding-top: 20px;
     }
     
     p{
         font-size: 16px;
-        font-weight: 300;
         padding: 0 80px;
         padding-top: 10px;
         padding-bottom: 40px;
@@ -203,13 +200,30 @@ li .carrito{
 .svg{
     z-index: 10;
 }
-/*****tendencias*****/
+/************tendencias en comida**********/
 .tendencias{
-    height: 800px;
-    padding-top: 60px;
+    height: auto;
+    padding-top: 90px;
     padding-left: 100px;
+    h3{
+        font-size: 32px;
+    }
+    h4{
+        padding-bottom: 0px;
+        font-size: 24px;
+    }
+    p{
+        padding: 15px 0;
+    }
 }
-/********galeria de productos********/
+
+.btntendencias{
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*galeria de productos*/
 .galeria{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -219,74 +233,82 @@ li .carrito{
     }
 }
 
-/****encuentra tu comuna****/
+/************encuentra tu COMUNA/MAPA**********/
+
 .comuna{
     padding: 60px 0px 40px 100px;
 }
-/***blog**/
+
+/************blog**********/
 .blog{
     text-align: center;
     height:auto;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .blogsito{
-    padding: 50px 0px;
+    padding-bottom: 20px;
 }
 
-.ultimoboton{
-    padding: 60px 0px;
+.espacio-img {
+    margin-bottom: -35px; 
+}
+.notablog{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
-
-.spaced-img {
-    margin-bottom: -5px; 
-}
-
-.custom-card {
+.blogmascotas {
     position: relative; 
     background-color: $color-01; 
     padding: 20px; 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
     text-align: center; 
-    width: 90%; 
-    margin: 0 auto; 
+    width: 70%;
+    h5{
+        margin-bottom: 10px; 
+    }
+    p{
+        margin-bottom: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: $color-04;
+    }
 }
 
-.custom-card h5 {
-    margin-bottom: 10px; 
+.ultimoboton{
+    padding: 80px 0 120px 0;
 }
-
-.custom-card p {
-    margin-bottom: 10px;
-}
+/****************************** PRODUCTO **************************************************/
 
 
-/************* PRODUCTO ***************/
+/***************************** CARRITO ****************************************************/
 
 
-/************* CARRITO ***************/
+/********************************** PERROS ************************************************/
 
 
-/************* PERROS ***************/
+/*************************************** GATOS ********************************************/
 
 
-/************* GATOS ***************/
+/***************************************** SOBRE NOSOTROS **********************************/
 
 
-/************* SOBRE NOSOTROS ***************/
+/******************************************* DESPACHOS *************************************/
 
 
-/************* DESPACHOS ***************/
+/************************************** TERMINOS Y CONDICIONES *******************************/
 
 
-/************* TERMINOS Y CONDICIONES ***************/
+/*********************************************** BLOG ****************************************/
 
 
-/************* BLOG ***************/
-
-
-/************* PERFIL ***************/
+/********************************************* PERFIL ****************************************/
 .boton-perfil {
     background-color: $color-03;
     color: white;  
