@@ -2,14 +2,14 @@
 @mixin button {
     font-size: 16px;
     padding: 20px 45px;
-    background-color: $color-03;
+    background-color: $color-11;
     text-decoration: none;
     color: $color-01;
 }
 
 @mixin button-hover {
-    background-color: $color-09;
-    color: $color-04;
+    background-color: $color-03;
+    color: $color-01;
 }
 
 @mixin h5{

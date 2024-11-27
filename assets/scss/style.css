@@ -12062,14 +12062,14 @@ li .carrito .bi-cart {
 .button {
   font-size: 16px;
   padding: 20px 45px;
-  background-color: #1A3572;
+  background-color: #8BAFFF;
   text-decoration: none;
   color: #FFFFFF;
 }
 
 .button:hover {
-  background-color: #E4ECFF;
-  color: #000000;
+  background-color: #1A3572;
+  color: #FFFFFF;
 }
 
 .bander {
@@ -12093,8 +12093,8 @@ li .carrito .bi-cart {
 
 /************publicidad slider**********/
 .publicidad {
-  height: 550px;
-  padding-top: 120px;
+  height: 640px;
+  padding: 120px 0 50px 0;
 }
 
 .slide {
@@ -12115,63 +12115,6 @@ li .carrito .bi-cart {
   padding-right: 30px;
 }
 
-/************marcas**********/
-.marcas {
-  height: auto;
-  padding: 100px 0 100px 100px;
-}
-
-.logomarca {
-  padding: 5px;
-}
-
-/* scroll */
-.scrolling-container {
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
-
-.scrolling-inner {
-  display: flex;
-  white-space: nowrap;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 8px 0;
-}
-
-.scrolling {
-  display: flex;
-}
-
-.scrolling-item {
-  padding: 20px 30px;
-}
-
-.imgmarca {
-  border-radius: 5%;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.scrolling-inner > .scrolling {
-  animation: var(--direction) var(--marquee-speed) linear infinite;
-}
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-@keyframes scroll-right {
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
 /*********tarjetas*******/
 .tarjetas {
   align-items: center;
@@ -12234,6 +12177,64 @@ li .carrito .bi-cart {
   z-index: 10;
 }
 
+/************marcas**********/
+.marcas {
+  height: auto;
+  padding: 100px 0 60px 100px;
+}
+
+.logomarca {
+  padding: 5px;
+}
+
+/* scroll */
+.scrolling-container {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.scrolling-inner {
+  display: flex;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+.scrolling {
+  display: flex;
+}
+
+.scrolling-item {
+  padding: 20px 30px;
+}
+
+.imgmarca {
+  border-radius: 5%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px 60px;
+}
+
+.scrolling-inner > .scrolling {
+  animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 /************tendencias en comida**********/
 .tendencias {
   height: auto;
