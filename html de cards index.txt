@@ -1,73 +1,73 @@
 <!------ logo de marcas IMAGENES ----->
             <!---------primera fila------->
-            <div class="row">
-                <div class="card" style="width: 18rem; border: none;">
+            <div class="scroll">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/broadline.png" class="card-img-top" alt="broadline">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/frontline.png" class="card-img-top" alt="frontline">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/masterdog.png" class="card-img-top" alt="masterdog">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/doko.png" class="card-img-top" alt="doko">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/bestbalance.png" class="card-img-top" alt="bestbalance">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/bombay.png" class="card-img-top" alt="bombay">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/canadulto.png" class="card-img-top" alt="canadulto">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/dogbuffet.png" class="card-img-top" alt="dogbuffet">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/sabrocat.png" class="card-img-top" alt="sabrocat">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/loops.png" class="card-img-top" alt="loops">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/masko.png" class="card-img-top" alt="masko">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/maskocat.png" class="card-img-top" alt="maskocat">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/vitalcanlineav.png" class="card-img-top" alt="linea V">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/catchow.png" class="card-img-top" alt="catchow">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/champ.png" class="card-img-top" alt="champ">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/nomade.png" class="card-img-top" alt="nomade">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/minninos.png" class="card-img-top" alt="minninos">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/mastercat.png" class="card-img-top" alt="mastercat">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/championcat.png" class="card-img-top" alt="championcat">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/doncucho.png" class="card-img-top" alt="doncucho">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/cubicat.png" class="card-img-top" alt="cubicat">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/dogchow.png" class="card-img-top" alt="dogchow">
                 </div>
-                <div class="card" style="width: 18rem; border: none;">
+                <div class=" item card" style="border: none;">
                     <img src="assets/img/dino.png" class="card-img-top" alt="dino">
                 </div>
             </div><!--cierre row-->
@@ -143,3 +143,368 @@
             </div><!--cierre row-->
 
         </div><!--cierre container-->
+
+
+
+***************************************************************
+
+<div class="container-fluid horizonte">
+            <div class="scroll">
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/broadline.png" class="card-img-top" alt="broadline">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/frontline.png" class="card-img-top" alt="frontline">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/masterdog.png" class="card-img-top" alt="masterdog">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/doko.png" class="card-img-top" alt="doko">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/bestbalance.png" class="card-img-top" alt="bestbalance">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/bombay.png" class="card-img-top" alt="bombay">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/canadulto.png" class="card-img-top" alt="canadulto">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/dogbuffet.png" class="card-img-top" alt="dogbuffet">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/sabrocat.png" class="card-img-top" alt="sabrocat">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/loops.png" class="card-img-top" alt="loops">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/masko.png" class="card-img-top" alt="masko">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/maskocat.png" class="card-img-top" alt="maskocat">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/vitalcanlineav.png" class="card-img-top" alt="linea V">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/catchow.png" class="card-img-top" alt="catchow">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/champ.png" class="card-img-top" alt="champ">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/nomade.png" class="card-img-top" alt="nomade">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/minninos.png" class="card-img-top" alt="minninos">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/mastercat.png" class="card-img-top" alt="mastercat">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/championcat.png" class="card-img-top" alt="championcat">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/doncucho.png" class="card-img-top" alt="doncucho">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/cubicat.png" class="card-img-top" alt="cubicat">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/dogchow.png" class="card-img-top" alt="dogchow">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/dino.png" class="card-img-top" alt="dino">
+                </div>
+            </div>
+        </div>
+        <!--segunda línea-->
+        <div class="container-fluid horizonte">
+            <div class="scroll">
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/nutribalance.png" class="card-img-top" alt="nutribalance">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/optimum.png" class="card-img-top" alt="optimum">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/pedigree.png" class="card-img-top" alt="pedigree">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/vitalcanpremium.png" class="card-img-top" alt="premium">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/proplan.png" class="card-img-top" alt="proplan">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/rabito.png" class="card-img-top" alt="rabito">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/whiskas.png" class="card-img-top" alt="whiskas">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/raza.png" class="card-img-top" alt="raza">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/royalcanin.png" class="card-img-top" alt="royalcanin">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/sabrokan.png" class="card-img-top" alt="sabrokan">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/stayhappy.png" class="card-img-top" alt="stayhappy">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/topk9.png" class="card-img-top" alt="topk9">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/tyson.png" class="card-img-top" alt="tyson">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/eukanuba.png" class="card-img-top" alt="eukanuba">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/felines.png" class="card-img-top" alt="felines">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/gati.png" class="card-img-top" alt="gati">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/guauforte.png" class="card-img-top" alt="guauforte">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/canaima.png" class="card-img-top" alt="canaima">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/aquafish.png" class="card-img-top" alt="aquafish">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/cubidog.png" class="card-img-top" alt="cubidog">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/adclean.png" class="card-img-top" alt="adclean">
+                </div>
+                <div class="item card" style="border: none;">
+                    <img src="assets/img/cachupin.png" class="card-img-top" alt="cachupin">
+                </div>
+            </div><!--cierre row-->
+        </div><!--cierre container-->
+
+
+
+------ otr prueba
+
+<!-- Primera línea -->
+<div class="container-fluid horizonte">
+    <div class="scroll-left">
+      <div class="item card" style="border: none;">
+        <img src="assets/img/broadline.png" class="card-img-top" alt="broadline">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/frontline.png" class="card-img-top" alt="frontline">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/masterdog.png" class="card-img-top" alt="masterdog">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/doko.png" class="card-img-top" alt="doko">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/bestbalance.png" class="card-img-top" alt="bestbalance">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/bombay.png" class="card-img-top" alt="bombay">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/canadulto.png" class="card-img-top" alt="canadulto">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/dogbuffet.png" class="card-img-top" alt="dogbuffet">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/sabrocat.png" class="card-img-top" alt="sabrocat">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/loops.png" class="card-img-top" alt="loops">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/masko.png" class="card-img-top" alt="masko">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/maskocat.png" class="card-img-top" alt="maskocat">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/vitalcanlineav.png" class="card-img-top" alt="linea V">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/catchow.png" class="card-img-top" alt="catchow">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/champ.png" class="card-img-top" alt="champ">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/nomade.png" class="card-img-top" alt="nomade">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/minninos.png" class="card-img-top" alt="minninos">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/mastercat.png" class="card-img-top" alt="mastercat">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/championcat.png" class="card-img-top" alt="championcat">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/doncucho.png" class="card-img-top" alt="doncucho">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/cubicat.png" class="card-img-top" alt="cubicat">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/dogchow.png" class="card-img-top" alt="dogchow">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/dino.png" class="card-img-top" alt="dino">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Segunda línea -->
+  <div class="container-fluid horizonte">
+    <div class="scroll-right">
+      <div class="item card" style="border: none;">
+        <img src="assets/img/nutribalance.png" class="card-img-top" alt="nutribalance">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/optimum.png" class="card-img-top" alt="optimum">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/pedigree.png" class="card-img-top" alt="pedigree">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/vitalcanpremium.png" class="card-img-top" alt="premium">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/proplan.png" class="card-img-top" alt="proplan">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/rabito.png" class="card-img-top" alt="rabito">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/whiskas.png" class="card-img-top" alt="whiskas">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/raza.png" class="card-img-top" alt="raza">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/royalcanin.png" class="card-img-top" alt="royalcanin">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/sabrokan.png" class="card-img-top" alt="sabrokan">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/stayhappy.png" class="card-img-top" alt="stayhappy">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/topk9.png" class="card-img-top" alt="topk9">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/tyson.png" class="card-img-top" alt="tyson">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/eukanuba.png" class="card-img-top" alt="eukanuba">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/felines.png" class="card-img-top" alt="felines">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/gati.png" class="card-img-top" alt="gati">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/guauforte.png" class="card-img-top" alt="guauforte">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/canaima.png" class="card-img-top" alt="canaima">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/aquafish.png" class="card-img-top" alt="aquafish">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/cubidog.png" class="card-img-top" alt="cubidog">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/adclean.png" class="card-img-top" alt="adclean">
+      </div>
+      <div class="item card" style="border: none;">
+        <img src="assets/img/cachupin.png" class="card-img-top" alt="cachupin">
+      </div>
+    </div>
+  </div>
+
+.horizonte {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #f5f5f5; /* Ajusta según tu color de fondo */
+}
+
+.horizonte .scroll-left,
+.horizonte .scroll-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.scroll-left {
+    animation: scroll-left 30s linear infinite;
+    flex-direction: row;
+}
+
+.scroll-right {
+    animation: scroll-right 30s linear infinite;
+    flex-direction: row-reverse;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+@keyframes scroll-right {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+.item {
+    display: inline-block;
+    margin: 0 30px; /* Ajusta el espacio entre los elementos según tus necesidades */
+    background-color: #ffffff; /* Ajusta según tu color de fondo */
+    border-radius: 0.4rem;
+    box-shadow: 
+        0 0.1rem 0.2rem #00000033,
+        0 0.1rem 0.5rem #0000004d,
+        0 0.2rem 1.5rem #00000066;
+}
+
+.item img {
+    max-width: 100%; /* Asegura que las imágenes se ajusten dentro del contenedor */
+    height: 100px;
+}
+.container-fluid.horizonte {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroll-left, .scroll-right {
+    display: flex;
+}
+
+.item.card {
+    display: inline-block;
+    margin-right: 10px; /* Espaciado entre las tarjetas */
+}
+

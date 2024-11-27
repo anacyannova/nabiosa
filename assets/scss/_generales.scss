@@ -146,6 +146,58 @@ li .carrito{
     padding: 5px;
 }
 
+/* scroll */
+.scrolling-container {
+    overflow: hidden;
+    background-color: $color-01;
+}
+
+.scrolling-inner {
+    display: flex;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.scrolling {
+    display: flex;
+}
+
+.scrolling-item {
+    padding: 20px 30px;
+}
+
+.imgmarca {
+    border-radius: 5%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.scrolling-inner > .scrolling {
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+
+
+
 /*********tarjetas*******/
 .tarjetas{
 
