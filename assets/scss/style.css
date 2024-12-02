@@ -12460,6 +12460,49 @@ li .carrito .bi-cart {
 
 /***************************************** SOBRE NOSOTROS **********************************/
 /******************************************* DESPACHOS *************************************/
+.landingdespacho {
+  background-image: url(../img/background3.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 215px;
+}
+.landingdespacho h2, .landingdespacho .h2 {
+  padding-top: 90px;
+  font-size: 48px;
+  white-space: nowrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.pajaro {
+  z-index: 10;
+  overflow: clip;
+  position: absolute;
+  left: -60px;
+  transform: translateY(-15px);
+}
+
+.pajaritos {
+  z-index: 10;
+  overflow: clip;
+  position: absolute;
+  left: 25px;
+  top: -3px;
+}
+
+.hamster2 {
+  z-index: 10;
+  overflow: clip;
+  position: absolute;
+  right: 25px;
+  top: 80px;
+}
+
+.parrafodespachos {
+  padding: 100px 50px;
+}
+
 /************************************** TERMINOS Y CONDICIONES *******************************/
 .landingterminos {
   background-image: url(../img/background2-2.png);
@@ -12472,6 +12515,8 @@ li .carrito .bi-cart {
   padding-top: 90px;
   font-size: 48px;
   white-space: nowrap;
+  text-align: center;
+  justify-content: center;
 }
 
 .conejitos {
@@ -12505,7 +12550,7 @@ li .carrito .bi-cart {
 .cuadradoparrafo {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
-  padding: 50px 80px;
+  padding: 100px 120px;
   font-family: "Work Sans", serif;
 }
 .cuadradoparrafo li {
