@@ -12039,7 +12039,6 @@ li .carrito .bi-cart {
 .banner {
   width: 100%;
   max-width: 100%;
-  overflow: hidden;
 }
 
 .barizq {
@@ -12462,6 +12461,58 @@ li .carrito .bi-cart {
 /***************************************** SOBRE NOSOTROS **********************************/
 /******************************************* DESPACHOS *************************************/
 /************************************** TERMINOS Y CONDICIONES *******************************/
+.landingterminos {
+  background-image: url(../img/background2-2.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 215px;
+}
+.landingterminos h2, .landingterminos .h2 {
+  padding-top: 90px;
+  font-size: 48px;
+  white-space: nowrap;
+}
+
+.conejitos {
+  z-index: 10;
+  overflow: clip;
+  position: absolute;
+  left: 50px;
+  transform: translateY(-38px);
+}
+
+.conejo {
+  z-index: 10;
+  overflow: clip;
+  position: absolute;
+  left: 25px;
+  top: 118px;
+}
+
+.hamster {
+  z-index: 10;
+  overflow: clip;
+  position: absolute;
+  right: 25px;
+  top: -23px;
+}
+
+.parrafoterminos {
+  padding: 100px 0 150px 220px;
+}
+
+.cuadradoparrafo {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  padding: 50px 80px;
+  font-family: "Work Sans", serif;
+}
+.cuadradoparrafo li {
+  list-style: none;
+  padding-top: 5px;
+}
+
 /*********************************************** BLOG ****************************************/
 /********************************************* PERFIL ****************************************/
 .perfil {
