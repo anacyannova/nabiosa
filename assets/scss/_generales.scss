@@ -9,7 +9,6 @@
 }
 
 .margen{
-    margin: 0 auto;
     width: $ancho-pantalla;
 }
 
@@ -25,7 +24,6 @@ body{
 nav{
     font-size: 16px;
     font-family: $font-texto;
-    
 }
 
 .search-bar {
@@ -48,7 +46,8 @@ nav{
 li .carrito{
     display: inline-block;
     .bi-cart{
-        top: 2%; /*toi peleando con este carro desgraciao*/
+        top: 2px; /*toi peleando con este carro desgraciao*/
+        position: relative;
     }
 }
 .mascotas:hover {
@@ -58,7 +57,9 @@ li .carrito{
 .bi-chevron-down {
     padding-left: 5px;
 }
-
+.navbar-brand img {
+    max-width: 100%;
+}
 /******************************************* INICIO - REGISTRO *********************************/
 
 
@@ -67,6 +68,8 @@ li .carrito{
 /***********BANNER perrito ********/
 .banner{
     width: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 .barizq{
     background-color: $color-02;
@@ -282,6 +285,17 @@ li .carrito{
     padding: 60px 0;
     display: flex;
     justify-content: center;
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .col--auto {
+        text-align: center;
+    }
 }
 
 /*galeria de productos*/
@@ -296,8 +310,16 @@ li .carrito{
 
 /************encuentra tu COMUNA/MAPA**********/
 
+
+.container-fluid.comuna .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .comuna{
     padding: 60px 0px 40px 100px;
+    margin: 0;
+    width: 100%;
 }
 .comunas{
     width: 500px;
@@ -318,6 +340,25 @@ li .carrito{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 /************blog**********/
+.container-fluid.blog {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding: 40px 0;
+}
+
+.container-fluid.blog .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-fluid.blog .col-md-8 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .blog{
     text-align: center;
     height:auto;
@@ -363,6 +404,19 @@ li .carrito{
     }
 }
 
+
+.ultimoboton .row {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ultimoboton .col-md-2 {
+    text-align: center;
+}
+
 .ultimoboton{
     padding: 80px 0 120px 0;
 }
@@ -376,7 +430,62 @@ li .carrito{
 
 
 /*************************************** GATOS ********************************************/
+.bannercat{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
 
+.sidebar1{
+    background-color: $color-07;
+    margin-top: 120px;
+    padding: 40px 20px;
+    h3{
+        padding-left: 40px;
+    }
+    li{
+        margin-left: -20px;
+    }
+}
+.sidebar2{
+    background-color: $color-07;
+    margin-top: 80px;
+    padding: 40px 60px;
+    li{
+        margin-left: -60px;
+    }
+}
+.filtro{
+    ul{
+        list-style: none;
+    }
+    li{
+        padding-top: 18px;
+    }
+    a{
+        text-decoration: none;
+        color: $color-12;
+        font-size: 16px;
+    }
+    a:hover {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    h3{
+        font-size: 18px;
+        color: $color-03;
+        padding-bottom: 10px;
+    }
+}
+
+.gatosgaleria{
+    padding-top: 120px ;
+}
 
 /***************************************** SOBRE NOSOTROS **********************************/
 
@@ -427,6 +536,11 @@ li .carrito{
 }
 .minifooter{
     padding: 15px 0;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
     p{
         font-size: 16px;
     }
@@ -442,18 +556,18 @@ li .carrito{
 }
 
 .minifootercen {
-    a {
-        padding-right: 21px;
-        }
+    flex-wrap: wrap;
+    gap: 10px;
+    
 }
 
 .minifooterder {
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
     a .face{
-        padding-left: 21px;
+        padding-left: 10px;
         }
 }
-
-
-
 
 /************* RESPONSIVE ***************/
