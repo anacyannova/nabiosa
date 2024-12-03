@@ -31,54 +31,37 @@
                         </div>
                     </div>
                 </nav><!-- cierre navegador uno -->
-                <nav class="navegador2 navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <!--search bar izquierda-->
-                        <div class="navbar">
-                            <div class="container-fluid">
-                                <form class="d-flex position-relative" role="search">
-                                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                                    <input class="form-control search-bar" type="search" placeholder="Buscar" aria-label="Search">
-                                </form>
-                            </div>
-                        </div><!--cierre search bar izquierda-->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown2">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link mascotas" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Mascotas<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-                                        </svg>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="perros.html">Perros</a></li>
-                                        <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
-                                        <li><a class="dropdown-item" href="#">Animales Exoticos</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Farmacia</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="despachos.html">Despacho</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
     </header>
     <!--- cuerpo del sitio --->
-    <main></main>
+    <main>
+        <div class="container-fluid-md perfil">
+            <div class="row justify-content-md-center"> <!-- contenedor formulario-->
+                <div class="col-md-4 p-4 mt-5">
+                    <h5 class="text-center mb-4">Lorem ipsum dolor sit amet consectetur.</h5>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresar">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Correo</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingresar">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Contraseña</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingresar">
+                        </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn button" type="button">Registrar</button>
+                    </div> <!--boton perfil-->
+
+                    <div class="d-grid mt-2">
+                         <button type="button" class="btn btn-outline-dark">Registrarse con google</button>
+                         <span class="text-center mb-4 mt-4">¿ya tienes cuenta? <a href="../nabiosa/inicio.html">Inicia sesión aquí</a></span>
+                    </div> <!--boton perfil-->
+                </div> <!-- fin formulario registro -->
+               </div> <!-- fin Contenedor formulario-->
+        </div>
+    </main>
 
     <!--------------------------------------- FOOTER -------------------------------------------->
     <footer>
