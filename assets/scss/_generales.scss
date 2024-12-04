@@ -14,6 +14,9 @@
 
 body{
     color: $color-04;
+    p, h1, h2, h3, h4, a, li{
+        font-family: $font-texto;
+    }
 }
 
 /************************************************* NAVEGADOR ************************************/
@@ -425,6 +428,115 @@ li .carrito{
 }
 /****************************** PRODUCTO **************************************************/
 
+.quantity-wrapper {
+    display: flex;
+    align-items: center;
+    font-family: $font-texto;
+    font-size: 14px;
+}
+
+.quantity-label {
+    margin-right: 8px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.quantity-button {
+    background-color: $color-01;
+    border: none;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.quantity-button:hover {
+    background-color: $color-01;
+    cursor: default;
+}
+
+.quantity-input {
+    border: none;
+    width: 60px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.quantity-input:focus {
+    outline: none;
+}
+
+.anadircarrito{
+    padding-top: 60px;
+}
+
+.infoproductos{
+    padding: 90px 0 50px 0;
+}
+
+.ingreizq{
+    padding-right: 100px;
+}
+
+
+.cardproduct {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+    .cardproduct-img {
+        width: 150px;
+        height: 290px;
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+    h3 {
+        font-size: 16px;
+        color: $color-04;
+        padding: 10px 16px;
+        display: block;
+        max-width: 100%;
+        white-space: normal;
+    }
+    
+    .cardproduct-content {
+        padding: 16px;
+        background-color: $color-03;
+        border-radius: 0 0 15px 15px;
+        
+        .cardproduct-a {
+        color: $color-01;
+        background-color: $color-03;
+        text-decoration: none;
+        border: none;
+        font-size: 14px;
+        }
+        .cardproduct-a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.productorecomendado1{
+    padding: 70px 0 70px 10px;
+    h3{
+        letter-spacing: 1px
+    }
+}
+
+.productorecomendado{
+    padding-bottom: 70px;
+}
+
+
+
 
 /***************************** CARRITO ****************************************************/
 
@@ -643,10 +755,10 @@ li .carrito{
     flex-wrap: wrap;
     justify-content: space-between; 
     align-items: center;
-    gap: 10px;
+    gap: 9px;
     overflow: hidden;
     p{
-        font-size: 16px;
+        font-size: 14px;
     }
     a{
         text-decoration: none;
@@ -661,14 +773,13 @@ li .carrito{
 
 .minifootercen {
     flex-wrap: wrap;
-    gap: 10px;
-    
+    gap: 8px;
 }
 
 .minifooterder {
     align-items: center;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 9px;
     a .face{
         padding-left: 10px;
         }
