@@ -435,14 +435,48 @@ li .carrito{
 
 
 /*************************************** GATOS ********************************************/
-.bannercat{
-    padding: 0;
-    margin: 0;
+.mainimglanding{
+    background-image: url(../img/background3.png);
+    object-fit: cover;
     width: 100%;
-    img {
-        width: 100%;
-        height: auto;
-        display: block;
+    height: 215px;
+    h2{
+        padding-top: 90px;
+        font-size: 48px;
+        white-space: nowrap;
+        text-align: center;
+        justify-content: center;
+        font-family: $font-texto;
+    }
+}
+
+.pnganimalitos{
+    z-index: 10;
+    overflow: clip;
+    position: absolute;
+}
+
+.gato1{
+    left: -5px;
+    transform: translateY(-40px);
+}
+
+.gato2{
+    left: -70px;
+    top: 110px;
+}
+
+.gato3{
+    right: 0px;
+    top: 20px;
+}
+
+.atras{
+    padding: 100px 0 0 90px;
+    a{
+        color: $color-10;
+        text-decoration: none;
+        font-family: $font-texto;
     }
 }
 
