@@ -10,75 +10,101 @@
 <body>
     <!---   HEADER  --->
     <header>
-                <!-- navegador UNO -->
-                <nav class="navegador1 navbar navbar-expand-lg">
+        <!-- navegador UNO -->
+        <nav class="navegador1 navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logosolo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown1" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown1">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="carrito nav-item">
+                            <a class="nav-link" href="carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                            </svg> Mi carrito</a>
+                        </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../nabiosa/perfil.html"><i class="fa-regular fa-user"></i> Cuenta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- cierre navegador uno -->
+
+        <!------------------ LANDING IMG--------------------->
+        <div class="container-fluid mainimglanding">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2 position-relative">
+                    <img class="pnganimalitos hamsterizquierdo" src="assets/img/hamsterizquierdo.png" alt="hamster con carrito de super">
+                </div>
+                <div class="col-md-4">
+                    <h2 class="fw-bold">Mi carrito</h2>
+                </div>
+                <div class="col-md-2 position-relative">
+                    <img class="pnganimalitos hamsterderecho" src="assets/img/hamsterderecho.png" alt="hamster con carrito de super">
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div><!--cierre row-->
+
+        <!-- navegador DOS -->
+        <nav class="navegador2 navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!--search bar izquierda-->
+                <div class="navbar">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html"><img src="assets/img/logosolo.png" alt="logo"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown1" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown1">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="carrito nav-item">
-                                    <a class="nav-link" href="carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                                        </svg> Mi carrito</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../nabiosa/perfil.html"><i class="fa-regular fa-user"></i> Cuenta</a>
-                                </li>
-                            </ul>
-                        </div>
+                        <form class="d-flex position-relative" role="search">
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                            <input class="form-control search-bar" type="search" placeholder="Buscar" aria-label="Search">
+                        </form>
                     </div>
-                </nav><!-- cierre navegador uno -->
-                <nav class="navegador2 navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <!--search bar izquierda-->
-                        <div class="navbar">
-                            <div class="container-fluid">
-                                <form class="d-flex position-relative" role="search">
-                                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                                    <input class="form-control search-bar" type="search" placeholder="Buscar" aria-label="Search">
-                                </form>
-                            </div>
-                        </div><!--cierre search bar izquierda-->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown2">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link mascotas" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Mascotas<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-                                        </svg>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="perros.html">Perros</a></li>
-                                        <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
-                                        <li><a class="dropdown-item" href="#">Animales Exoticos</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Farmacia</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="despachos.html">Despacho</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
-                                </li>
-                                
+                </div><!--cierre search bar izquierda-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mascotas" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Mascotas<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="perros.html">Perros</a></li>
+                                <li><a class="dropdown-item" href="gatos.html">Gatos</a></li>
+                                <li><a class="dropdown-item" href="#">Animales Exoticos</a></li>
                             </ul>
-                        </div>
-                    </div>
-                </nav>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Farmacia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="despachos.html">Despacho</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- cierre navegador DOS -->
     </header>
     <!--- cuerpo del sitio --->
     <main>
+        <!--atras-->
+        <div class="atras">
+            <a class="goback" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+            </svg> Atrás</a>
+        </div><!--fin atras-->
+        <!--carrito main-->
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -183,8 +209,8 @@
                         <li class="fw-bold">Comunidad</li>
                         <li><a href="nosotros.html">Sobre nosotros</a></li>
                         <li><a href="mailto:support@yourwebsite.com">contacto@allendeshnos.cl</a></li>
-                        <li><a href="x">Boletín de noticias</a></li>
-                        <li><a href="x">Preguntas frecuentes</a></li>
+                        <li><a href="#">Boletín de noticias</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
                         
                     </ul>
                 </div>
@@ -207,10 +233,10 @@
                     <p>Allendes Hnos 2024, derechos reservados.</p>
                 </div>
                 <div class="col-md d-flex justify-content-center minifootercen">
-                    <p><a href="x">Términos y condiciones</a></p>
-                    <p><a href="x">Trabaja con nosotros</a></p>
-                    <p><a href="x">Contactenos</a></p>
-                    <p><a href="x">Sucursales</a></p>
+                    <p><a href="terminos.html">Términos y condiciones</a></p>
+                    <p><a href="#">Trabaja con nosotros</a></p>
+                    <p><a href="#">Contactenos</a></p>
+                    <p><a href="#">Sucursales</a></p>
                 </div>
                 <div class="col-md d-flex justify-content-center minifooterder">
                     <p><a href="https://x.com/"><img src="assets/img/logo-x.png" alt="logo x"></a></p>

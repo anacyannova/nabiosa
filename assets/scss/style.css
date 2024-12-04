@@ -12410,6 +12410,16 @@ li .carrito .bi-cart {
   padding: 40px 20px;
 }
 
+.hamsterizquierdo {
+  left: 0px;
+  top: -8px;
+}
+
+.hamsterderecho {
+  right: 0px;
+  top: -8px;
+}
+
 /********************************** PERROS ************************************************/
 .perro1 {
   left: 0px;
