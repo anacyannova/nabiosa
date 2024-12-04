@@ -848,14 +848,14 @@ li .carrito{
     flex-wrap: wrap;
     justify-content: space-between; 
     align-items: center;
-    gap: 9px;
+    gap: 8px;
     overflow: hidden;
     p{
-        font-size: 14px;
+        font-size: 12px;
     }
     a{
         text-decoration: none;
-        font-size: 14px;
+        font-size: 12px;
         color:$color-10;
     }
     a:hover{
@@ -872,7 +872,7 @@ li .carrito{
 .minifooterder {
     align-items: center;
     justify-content: flex-end;
-    gap: 9px;
+    gap: 8px;
     a .face{
         padding-left: 10px;
         }
