@@ -12053,11 +12053,10 @@ li .carrito .bi-cart {
   padding-left: 60px;
   font-family: "Work Sans", serif;
 }
-.alimenta h2, .alimenta .h2 {
+.alimenta h1, .alimenta .h1 {
   justify-content: flex-start;
-  font-size: 48px;
 }
-.alimenta p {
+.alimenta h2, .alimenta .h2 {
   font-size: 24px;
   padding-bottom: 60px;
   color: #858585;
@@ -12088,10 +12087,7 @@ li .carrito .bi-cart {
 }
 
 .perri {
-  z-index: 10;
-  overflow: clip;
   left: -108px;
-  position: absolute;
   top: -10px;
 }
 
@@ -12692,6 +12688,106 @@ li .carrito .bi-cart {
 }
 
 /*********************************************** BLOG ****************************************/
+.blogbanner .primertextoblog {
+  padding: 50px 100px 0 0;
+}
+
+.cutecat {
+  left: -180px;
+  top: -49px;
+}
+
+.ultimarowblog {
+  padding-bottom: 60px;
+}
+
+.notablogprincipal {
+  width: 830px;
+  height: 720px;
+  padding: 40px;
+  background-color: #8BAFFF;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.notablogprincipal .notablogprincipal-img {
+  width: 724px;
+  height: 415px;
+}
+.notablogprincipal .notablogprincipal-body {
+  padding: 16px;
+  text-align: center;
+}
+.notablogprincipal .notablogprincipal-body .notablogprincipal-title {
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-bottom: 12px;
+  font-size: 36px;
+}
+.notablogprincipal .notablogprincipal-body a {
+  text-decoration: none;
+}
+.notablogprincipal .notablogprincipal-body a:hover {
+  text-decoration: underline;
+}
+.notablogprincipal .notablogprincipal-body .notablogprincipal-text {
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/*********************************************** NOTICIA ****************************************/
+.noticiavar {
+  background-color: #8BAFFF;
+  color: #FFFFFF;
+}
+
+.noticia-main {
+  width: 100%;
+  background-color: #8BAFFF;
+  color: #FFFFFF;
+  margin-bottom: 120px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 5;
+}
+
+.noticia-body {
+  padding: 60px;
+  margin: 20px;
+}
+.noticia-body h2, .noticia-body .h2, .noticia-body h3, .noticia-body .h3 {
+  padding-bottom: 20px;
+}
+
+.noticia-text-izq {
+  padding-right: 90px;
+}
+
+.noticia-text-final {
+  padding-right: 120px;
+}
+
+.especial-img {
+  position: absolute;
+  top: 390px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.notablog {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 90px;
+}
+
 /********************************************* PERFIL ****************************************/
 .perfil {
   padding: 90px 0 90px 0;
