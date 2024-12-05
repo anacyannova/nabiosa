@@ -66,6 +66,16 @@ li .carrito{
 /******************************************* INICIO - REGISTRO *********************************/
 
 
+.button-ancho{
+    text-decoration: none;
+    @include button
+}
+.button-ancho:hover{
+    @include button-hover
+}
+
+
+
 
 /***************************************** HOME ************************************************/
 /***********BANNER perrito ********/
