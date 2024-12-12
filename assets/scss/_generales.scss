@@ -772,47 +772,70 @@ li .carrito{
     padding-bottom: 60px;
 }
 
+.blogmain{
+    padding-top: 120px;
+}
+
 .notablogprincipal {
-    width: 830px;
-    height: 720px;
+    width: auto;
+    height: auto;
     padding: 40px;
-    background-color: $color-11;
+    background-color: $color-01;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     display: flex;
-    flex-direction: column; 
     align-items: center;
-    justify-content: center;
-    position: relative;
+    flex-direction: column;
+    .autor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0 20px 0;
+    }
     
     .notablogprincipal-img {
-        width: 724px;
-        height: 415px;
+        width: 575px;
+        height: 363px;
+    }
+    .notablogprincipal-img2{
+        width: 575px;
+        height: 300px;
     }
     
     .notablogprincipal-body {
         padding: 16px;
-        text-align: center;
+        text-align: left;
+        background-color: $color-13;
+        
+        a{
+            text-decoration: none;
+            color:$color-10;
+            font-size: 14px;
+        }
+        a:hover{
+            text-decoration: none;
+            color:$color-03;
+        }
         
         .notablogprincipal-title {
             font-weight: bold;
-            color: $color-01;
+            color: $color-04;
             margin-bottom: 12px;
             font-size: 36px;
         }
-        a{
-            text-decoration: none;
-        }
-        a:hover{
-            text-decoration: underline;
+        h2{
+            padding-bottom: 10px;
         }
         .notablogprincipal-text {
         font-size: 16px;
-        color: $color-01;
+        color: $color-04;
         line-height: 1.6;
-        text-align: justify;
         }
     }
+}
+.btn{
+    text-align: center;
 }
 
 /*********************************************** NOTICIA ****************************************/
