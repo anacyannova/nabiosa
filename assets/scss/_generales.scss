@@ -20,6 +20,32 @@ body{
 }
 
 /************************************************* NAVEGADOR ************************************/
+.navegador1 {
+    padding: 20px 20px;
+}
+
+.iconologo {
+    display: flex;
+    .logo {
+        padding-left: 15px;
+    }
+    h2 {
+        margin-left: -20px;
+    }
+    .navbar-brand{
+        padding: 0px;
+        margin: 0px;
+    }
+    a{
+        font-size: 24px;
+        white-space: nowrap;
+        text-decoration: none;
+        color: $color-04;
+    }
+}
+
+
+
 .navegador2{
     background-color: $color-07;
 }
@@ -759,7 +785,8 @@ li .carrito{
 /*********************************************** BLOG ****************************************/
 .blogbanner{
     .primertextoblog{
-        padding: 50px 100px 0 0;
+        padding: 0px 100px 0 0;
+        margin-top: 15px;
     }
 }
 
@@ -768,24 +795,20 @@ li .carrito{
     top: -49px;
 }
 
-.ultimarowblog{
-    padding-bottom: 60px;
-}
-
 .blogmain{
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .notablogprincipal {
-    width: auto;
-    height: auto;
-    padding: 40px;
+    width: 100%;
+    padding: 20px;
     background-color: $color-01;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
     .autor{
         display: flex;
         justify-content: space-between;
@@ -795,12 +818,8 @@ li .carrito{
     }
     
     .notablogprincipal-img {
-        width: 575px;
-        height: 363px;
-    }
-    .notablogprincipal-img2{
-        width: 575px;
-        height: 300px;
+        width: 100%;
+        height: auto;
     }
     
     .notablogprincipal-body {
@@ -810,11 +829,14 @@ li .carrito{
         
         a{
             text-decoration: none;
-            color:$color-10;
-            font-size: 14px;
+            color:$color-04;
+            font-size: 16px;
+            display: block;
+            margin: 16px auto 0;
+            text-align: center;
         }
         a:hover{
-            text-decoration: none;
+            text-decoration: underline;
             color:$color-03;
         }
         
@@ -834,8 +856,9 @@ li .carrito{
         }
     }
 }
-.btn{
-    text-align: center;
+
+.noticia2{
+    margin-top: 360px;
 }
 
 /*********************************************** NOTICIA ****************************************/

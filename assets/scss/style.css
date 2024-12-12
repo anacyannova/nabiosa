@@ -11986,6 +11986,30 @@ body p, body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .
 }
 
 /************************************************* NAVEGADOR ************************************/
+.navegador1 {
+  padding: 20px 20px;
+}
+
+.iconologo {
+  display: flex;
+}
+.iconologo .logo {
+  padding-left: 15px;
+}
+.iconologo h2, .iconologo .h2 {
+  margin-left: -20px;
+}
+.iconologo .navbar-brand {
+  padding: 0px;
+  margin: 0px;
+}
+.iconologo a {
+  font-size: 24px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #000000;
+}
+
 .navegador2 {
   background-color: #F9FAFB;
 }
@@ -12740,7 +12764,8 @@ li .carrito .bi-cart {
 
 /*********************************************** BLOG ****************************************/
 .blogbanner .primertextoblog {
-  padding: 50px 100px 0 0;
+  padding: 0px 100px 0 0;
+  margin-top: 15px;
 }
 
 .cutecat {
@@ -12748,24 +12773,20 @@ li .carrito .bi-cart {
   top: -49px;
 }
 
-.ultimarowblog {
-  padding-bottom: 60px;
-}
-
 .blogmain {
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .notablogprincipal {
-  width: auto;
-  height: auto;
-  padding: 40px;
+  width: 100%;
+  padding: 20px;
   background-color: #FFFFFF;
   border-radius: 5px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   display: flex;
-  align-items: center;
   flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 .notablogprincipal .autor {
   display: flex;
@@ -12775,12 +12796,8 @@ li .carrito .bi-cart {
   padding: 30px 0 20px 0;
 }
 .notablogprincipal .notablogprincipal-img {
-  width: 575px;
-  height: 363px;
-}
-.notablogprincipal .notablogprincipal-img2 {
-  width: 575px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 .notablogprincipal .notablogprincipal-body {
   padding: 16px;
@@ -12789,11 +12806,14 @@ li .carrito .bi-cart {
 }
 .notablogprincipal .notablogprincipal-body a {
   text-decoration: none;
-  color: #4B5563;
-  font-size: 14px;
+  color: #000000;
+  font-size: 16px;
+  display: block;
+  margin: 16px auto 0;
+  text-align: center;
 }
 .notablogprincipal .notablogprincipal-body a:hover {
-  text-decoration: none;
+  text-decoration: underline;
   color: #1A3572;
 }
 .notablogprincipal .notablogprincipal-body .notablogprincipal-title {
@@ -12811,8 +12831,8 @@ li .carrito .bi-cart {
   line-height: 1.6;
 }
 
-.btn {
-  text-align: center;
+.noticia2 {
+  margin-top: 360px;
 }
 
 /*********************************************** NOTICIA ****************************************/
