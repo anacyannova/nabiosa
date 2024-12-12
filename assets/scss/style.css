@@ -12630,17 +12630,17 @@ nav {
 
 .gato1 {
   left: -5px;
-  transform: translateY(-40px);
+  top: -40px;
 }
 
 .gato2 {
   left: -70px;
-  top: 110px;
+  top: 45px;
 }
 
 .gato3 {
-  right: 0px;
-  top: 20px;
+  right: 15px;
+  top: 100px;
 }
 
 .atras {
@@ -12828,52 +12828,6 @@ nav {
 }
 
 /*********************************************** NOTICIA ****************************************/
-.noticiavar {
-  background-color: #8BAFFF;
-  color: #FFFFFF;
-}
-
-.noticia-main {
-  width: 100%;
-  background-color: #8BAFFF;
-  color: #FFFFFF;
-  margin-bottom: 120px;
-  margin-top: 50px;
-  position: relative;
-  z-index: 5;
-}
-
-.noticia-body {
-  padding: 60px;
-  margin: 20px;
-}
-.noticia-body h2, .noticia-body .h2, .noticia-body h3, .noticia-body .h3 {
-  padding-bottom: 20px;
-}
-
-.noticia-text-izq {
-  padding-right: 90px;
-}
-
-.noticia-text-final {
-  padding-right: 120px;
-}
-
-.especial-img {
-  position: absolute;
-  top: 390px;
-  left: 0;
-  width: 100%;
-  height: auto;
-  z-index: 1;
-}
-
-.notablog {
-  position: relative;
-  z-index: 10;
-  margin-bottom: 90px;
-}
-
 /********************************************* PERFIL ****************************************/
 .perfil {
   padding: 90px 0 90px 0;
