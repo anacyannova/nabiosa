@@ -12133,6 +12133,11 @@ li .carrito .bi-cart {
   padding-right: 30px;
 }
 
+.borderright {
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
 /*********tarjetas*******/
 .tarjetas {
   align-items: center;
@@ -12301,6 +12306,19 @@ li .carrito .bi-cart {
   font-weight: 600;
 }
 
+.galeria:hover .cajita {
+  filter: blur(20px);
+  opacity: 50%;
+  transform: scale(95%);
+}
+
+.galeria:hover .cajita:hover {
+  filter: none;
+  opacity: 100%;
+  transform: scale(105%);
+  cursor: pointer;
+}
+
 /************encuentra tu COMUNA/MAPA**********/
 .container-fluid.comuna .row, .comuna.container-sm .row, .comuna.container-md .row, .comuna.container-lg .row, .comuna.container-xl .row, .comuna.container-xxl .row {
   margin-left: 0;
@@ -12313,24 +12331,29 @@ li .carrito .bi-cart {
   width: 100%;
 }
 
-.comunas {
-  width: 500px;
+.menumapa {
+  width: 390px;
+  height: 52px;
   border-radius: 0%;
+}
+
+.comunas {
   background-color: #1A3572;
+  border-radius: 0%;
   color: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  stroke-opacity: 1px;
 }
 
 .comunas:hover {
-  background-color: #E4ECFF;
+  background-color: #FFFFFF;
   color: #000000;
+  border-radius: 0%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.comunas2 {
-  width: 500px;
-  border-radius: 0%;
-  background-color: #F9FAFB;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+.opcion:hover {
+  background-color: red; /***ESTO INTENTO ARREGLAR AUN***/
 }
 
 /************blog**********/
