@@ -11996,7 +11996,7 @@ nav {
 }
 
 .search-bar {
-  width: 500px;
+  width: 300px;
   padding-left: 35px;
   border-radius: 0%;
 }
@@ -12136,6 +12136,7 @@ li .carrito .bi-cart {
 .borderright {
   border-left: 1px solid black;
   padding-left: 20px;
+  margin-left: -20px;
 }
 
 /*********tarjetas*******/
@@ -12196,6 +12197,12 @@ li .carrito .bi-cart {
   color: #000000;
 }
 
+.circle a:hover svg {
+  fill: #8BAFFF;
+  transform: scale(1.1);
+  transition: transform 0.3s, fill 0.3s;
+}
+
 .svg {
   z-index: 10;
 }
@@ -12203,7 +12210,8 @@ li .carrito .bi-cart {
 /************marcas**********/
 .marcas {
   height: auto;
-  padding: 100px 0 60px 100px;
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
 
 .logomarca {
@@ -12261,8 +12269,9 @@ li .carrito .bi-cart {
 /************tendencias en comida**********/
 .tendencias {
   height: auto;
-  padding-top: 90px;
-  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  padding-left: 80px;
 }
 .tendencias h3, .tendencias .h3 {
   font-size: 32px;
@@ -12307,7 +12316,7 @@ li .carrito .bi-cart {
 }
 
 .galeria:hover .cajita {
-  filter: blur(20px);
+  filter: blur(5px);
   opacity: 50%;
   transform: scale(95%);
 }
@@ -12326,9 +12335,10 @@ li .carrito .bi-cart {
 }
 
 .comuna {
-  padding: 60px 0px 40px 100px;
-  margin: 0;
-  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  padding-left: 80px;
 }
 
 .menumapa {
@@ -12350,10 +12360,6 @@ li .carrito .bi-cart {
   color: #000000;
   border-radius: 0%;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.opcion:hover {
-  background-color: red; /***ESTO INTENTO ARREGLAR AUN***/
 }
 
 /************blog**********/
@@ -12397,6 +12403,14 @@ li .carrito .bi-cart {
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.notablog {
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.notablog:hover {
+  transform: scale(1.05);
 }
 
 .blogmascotas {
