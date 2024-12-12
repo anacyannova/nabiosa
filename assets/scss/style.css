@@ -12039,14 +12039,6 @@ nav {
   font-size: 16px;
 }
 
-li .carrito {
-  display: inline-block;
-}
-li .carrito .bi-cart {
-  top: 2px; /*toi peleando con este carro desgraciao*/
-  position: relative;
-}
-
 .mascotas:hover {
   text-decoration: underline;
   padding-right: 3px;
@@ -12946,4 +12938,17 @@ li .carrito .bi-cart {
   padding-left: 10px;
 }
 
-/************* RESPONSIVE ***************//*# sourceMappingURL=style.css.map */
+/***************************************** RESPONSIVE **************************/
+/*******navegador*********/
+@media (max-width: 768px) {
+  .texto-ocultar {
+    display: none;
+  }
+  .navbar-nav .nav-item {
+    margin-left: 5px;
+  }
+  .navbar-nav .nav-link svg {
+    width: 24px;
+    height: 24px;
+  }
+}/*# sourceMappingURL=style.css.map */

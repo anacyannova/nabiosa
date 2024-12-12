@@ -46,6 +46,7 @@ body{
 
 
 
+
 .navegador2{
     background-color: $color-07;
 }
@@ -72,13 +73,7 @@ nav{
     font-family: $font-texto;
     font-size: 16px;
 }
-li .carrito{
-    display: inline-block;
-    .bi-cart{
-        top: 2px; /*toi peleando con este carro desgraciao*/
-        position: relative;
-    }
-}
+
 .mascotas:hover {
     text-decoration: underline;
     padding-right: 3px;
@@ -966,4 +961,20 @@ li .carrito{
         }
 }
 
-/************* RESPONSIVE ***************/
+/***************************************** RESPONSIVE **************************/
+/*******navegador*********/
+
+@media (max-width: 768px) {
+    .texto-ocultar {
+        display: none;
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 5px;
+    }
+
+    .navbar-nav .nav-link svg {
+        width: 24px;
+        height: 24px;
+    }
+}
