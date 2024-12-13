@@ -19,7 +19,21 @@ $color-13: #f5f5f5;
 
 
 
-// Fuentes ejemplo:
-$font-texto: "Work Sans", serif;
-//$font-titulo: "xxx", sans-serif;
+
+// Fuentes
+$font-family-base: "Work Sans", sans-serif;
+$font-weight-bold: 700;
+$font-weight-semibold: 600;
+$font-weight-regular: 400;
 $medida-font: 1rem;
+
+// Tamaños de fuente
+$font-size-h1: 32px;
+$font-size-h2: 48px;
+$font-size-h3: 32px;
+$font-size-h4: 24px;
+$font-size-p: 16px;
+$font-size-p2: 12px;
+$font-size-span: 14px;
+$font-size-a1: 16px;
+$font-size-a2: 12px;

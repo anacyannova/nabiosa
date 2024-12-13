@@ -11978,15 +11978,7 @@ textarea.form-control-lg {
   width: 90%;
 }
 
-body {
-  color: #000000;
-}
-body p, body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4, body a, body li {
-  font-family: "Work Sans", serif;
-}
-
-/************************************************* NAVEGADOR ************************************/
-.navegador1 {
+body .navegador1 {
   padding: 20px 20px;
 }
 
@@ -12016,7 +12008,6 @@ body p, body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .
 
 nav {
   font-size: 16px;
-  font-family: "Work Sans", serif;
 }
 
 .search-bar {
@@ -12035,7 +12026,6 @@ nav {
 }
 
 .fa-solid {
-  font-family: "Work Sans", serif;
   font-size: 16px;
 }
 
@@ -12081,13 +12071,11 @@ nav {
 .alimenta {
   padding-top: 120px;
   padding-left: 60px;
-  font-family: "Work Sans", serif;
 }
 .alimenta h1, .alimenta .h1 {
   justify-content: flex-start;
 }
-.alimenta h2, .alimenta .h2 {
-  font-size: 24px;
+.alimenta h4, .alimenta .h4 {
   padding-bottom: 60px;
   color: #858585;
 }
@@ -12140,7 +12128,6 @@ nav {
 }
 .publizq h3, .publizq .h3 {
   padding-bottom: 20px;
-  font-size: 32px;
 }
 .publizq h4, .publizq .h4 {
   padding-bottom: 20px;
@@ -12185,12 +12172,10 @@ nav {
   text-align: center;
   margin-top: 20px;
 }
-.description h2, .description .h2 {
-  font-size: 24px;
+.description h3, .description .h3 {
   padding-top: 20px;
 }
 .description p {
-  font-size: 16px;
   padding: 0 80px;
   padding-top: 10px;
   padding-bottom: 40px;
@@ -12243,7 +12228,6 @@ nav {
 .scrolling-inner {
   display: flex;
   white-space: nowrap;
-  font-size: 16px;
   font-weight: 600;
   padding: 8px 0;
 }
@@ -12289,12 +12273,8 @@ nav {
   padding-bottom: 60px;
   padding-left: 80px;
 }
-.tendencias h3, .tendencias .h3 {
-  font-size: 32px;
-}
 .tendencias h4, .tendencias .h4 {
   padding-bottom: 0px;
-  font-size: 24px;
 }
 .tendencias p {
   padding: 15px 0;
@@ -12323,8 +12303,6 @@ nav {
 }
 .galeria p {
   text-transform: uppercase;
-  font-size: 20px;
-  font-family: "Work Sans", serif;
 }
 
 .subtitulo {
@@ -12472,8 +12450,6 @@ nav {
 .quantity-wrapper {
   display: flex;
   align-items: center;
-  font-family: "Work Sans", serif;
-  font-size: 14px;
 }
 
 .quantity-label {
@@ -12493,7 +12469,7 @@ nav {
   width: 60px;
   height: 30px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .quantity-button:hover {
@@ -12555,7 +12531,6 @@ nav {
   background-color: #1A3572;
   text-decoration: none;
   border: none;
-  font-size: 14px;
 }
 .cardproduct .cardproduct-content .cardproduct-a:hover {
   text-decoration: underline;
@@ -12615,11 +12590,9 @@ nav {
 }
 .mainimglanding h2, .mainimglanding .h2 {
   padding-top: 90px;
-  font-size: 48px;
   white-space: nowrap;
   text-align: center;
   justify-content: center;
-  font-family: "Work Sans", serif;
 }
 
 .pnganimalitos {
@@ -12649,7 +12622,6 @@ nav {
 .atras a {
   color: #4B5563;
   text-decoration: none;
-  font-family: "Work Sans", serif;
 }
 
 .sidebar1 {
@@ -12682,7 +12654,6 @@ nav {
 .filtro a {
   text-decoration: none;
   color: #1F2937;
-  font-size: 16px;
 }
 .filtro a:hover {
   text-decoration: underline;
@@ -12747,7 +12718,6 @@ nav {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   padding: 100px 120px;
-  font-family: "Work Sans", serif;
 }
 .cuadradoparrafo li {
   list-style: none;
@@ -12799,7 +12769,6 @@ nav {
 .notablogprincipal .notablogprincipal-body a {
   text-decoration: none;
   color: #000000;
-  font-size: 16px;
   display: block;
   margin: 16px auto 0;
   text-align: center;
@@ -12812,13 +12781,11 @@ nav {
   font-weight: bold;
   color: #000000;
   margin-bottom: 12px;
-  font-size: 36px;
 }
 .notablogprincipal .notablogprincipal-body h2, .notablogprincipal .notablogprincipal-body .h2 {
   padding-bottom: 10px;
 }
 .notablogprincipal .notablogprincipal-body .notablogprincipal-text {
-  font-size: 16px;
   color: #000000;
   line-height: 1.6;
 }
@@ -12843,7 +12810,7 @@ nav {
 .info-footer a {
   text-decoration: none;
   color: #4B5563;
-  font-size: 14px;
+  font-size: 16px;
 }
 .info-footer a:hover {
   text-decoration: none;
@@ -12854,7 +12821,7 @@ nav {
   padding: 5px 0;
 }
 .info-footer p {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .minifooter {
@@ -12870,7 +12837,6 @@ nav {
 }
 .minifooter a {
   text-decoration: none;
-  font-size: 12px;
   color: #4B5563;
 }
 .minifooter a:hover {
