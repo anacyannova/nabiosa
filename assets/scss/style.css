@@ -11978,7 +11978,52 @@ textarea.form-control-lg {
   width: 90%;
 }
 
-body .navegador1 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, p, .p2, .pspan, a, .a2 {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1, .h1 {
+  font-size: 32px;
+}
+
+h2, .h2 {
+  font-size: 48px;
+}
+
+h3, .h3 {
+  font-size: 32px;
+}
+
+h4, .h4 {
+  font-size: 24px;
+}
+
+h5, .h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.p2 {
+  font-size: 20px;
+}
+
+.pspan {
+  font-size: 14px;
+}
+
+.a1 {
+  font-size: 16px;
+}
+
+.a2 {
+  font-size: 12px;
+}
+
+/************************************************* NAVEGADOR ************************************/
+.navegador1 {
   padding: 20px 20px;
 }
 
@@ -11988,15 +12033,12 @@ body .navegador1 {
 .iconologo .logo {
   padding-left: 15px;
 }
-.iconologo h2, .iconologo .h2 {
-  margin-left: -20px;
-}
 .iconologo .navbar-brand {
   padding: 0px;
   margin: 0px;
 }
 .iconologo a {
-  font-size: 24px;
+  font-size: 24px; /*LETRAS LOGO o H1 + a*/
   white-space: nowrap;
   text-decoration: none;
   color: #000000;
@@ -12073,10 +12115,10 @@ nav {
   padding-top: 120px;
   padding-left: 60px;
 }
-.alimenta h1, .alimenta .h1 {
+.alimenta h2, .alimenta .h2 {
   justify-content: flex-start;
 }
-.alimenta h4, .alimenta .h4 {
+.alimenta p {
   padding-bottom: 60px;
   color: #858585;
 }
@@ -12174,7 +12216,7 @@ nav {
   text-align: center;
   margin-top: 20px;
 }
-.description h3, .description .h3 {
+.description h4, .description .h4 {
   padding-top: 20px;
 }
 .description p {
@@ -12230,6 +12272,7 @@ nav {
 .scrolling-inner {
   display: flex;
   white-space: nowrap;
+  font-size: 16px;
   font-weight: 600;
   padding: 8px 0;
 }
@@ -12303,12 +12346,9 @@ nav {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.galeria p {
-  text-transform: uppercase;
-}
-
-.subtitulo {
+.galeria .subtitulo {
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .galeria:hover .cajita {
@@ -12417,7 +12457,7 @@ nav {
   text-align: center;
   width: 70%;
 }
-.blogmascotas h5, .blogmascotas .h5 {
+.blogmascotas h4, .blogmascotas .h4 {
   margin-bottom: 10px;
 }
 .blogmascotas p {
@@ -12452,6 +12492,7 @@ nav {
 .quantity-wrapper {
   display: flex;
   align-items: center;
+  font-size: 14px;
 }
 
 .quantity-label {
@@ -12515,8 +12556,7 @@ nav {
   padding: 30px 0;
   margin: 0 auto;
 }
-.cardproduct h3, .cardproduct .h3 {
-  font-size: 16px;
+.cardproduct p {
   color: #000000;
   padding: 10px 16px;
   display: block;
@@ -12533,6 +12573,7 @@ nav {
   background-color: #1A3572;
   text-decoration: none;
   border: none;
+  font-size: 16px;
 }
 .cardproduct .cardproduct-content .cardproduct-a:hover {
   text-decoration: underline;
@@ -12543,6 +12584,7 @@ nav {
 }
 .productorecomendado1 h3, .productorecomendado1 .h3 {
   letter-spacing: 1px;
+  white-space: nowrap;
 }
 
 .productorecomendado {
@@ -12576,6 +12618,10 @@ nav {
 .hamsterderecho {
   right: 0px;
   top: -8px;
+}
+
+.carritoeditable .eliminar {
+  color: #EF4444;
 }
 
 /********************************** PERROS ************************************************/
@@ -12634,6 +12680,7 @@ nav {
   padding: 100px 0 0 90px;
 }
 .atras a {
+  font-size: 12px;
   color: #4B5563;
   text-decoration: none;
 }
@@ -12643,7 +12690,7 @@ nav {
   margin-top: 120px;
   padding: 40px 20px;
 }
-.sidebar1 h3, .sidebar1 .h3 {
+.sidebar1 h5, .sidebar1 .h5 {
   padding-left: 40px;
 }
 .sidebar1 li {
@@ -12668,13 +12715,13 @@ nav {
 .filtro a {
   text-decoration: none;
   color: #1F2937;
+  font-size: 16px;
 }
 .filtro a:hover {
   text-decoration: underline;
   font-weight: 600;
 }
-.filtro h3, .filtro .h3 {
-  font-size: 18px;
+.filtro h5, .filtro .h5 {
   color: #1A3572;
   padding-bottom: 10px;
 }
@@ -12783,6 +12830,7 @@ nav {
 .notablogprincipal .notablogprincipal-body a {
   text-decoration: none;
   color: #000000;
+  font-size: 16px;
   display: block;
   margin: 16px auto 0;
   text-align: center;
@@ -12824,7 +12872,6 @@ nav {
 .info-footer a {
   text-decoration: none;
   color: #4B5563;
-  font-size: 16px;
 }
 .info-footer a:hover {
   text-decoration: none;
@@ -12851,6 +12898,7 @@ nav {
 }
 .minifooter a {
   text-decoration: none;
+  font-size: 12px;
   color: #4B5563;
 }
 .minifooter a:hover {
