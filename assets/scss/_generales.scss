@@ -275,7 +275,7 @@ nav{
     padding: 20px 60px;
 }
 
-.scrolling-inner > .scrolling {
+.scrolling-inner .scrolling {
     animation: var(--direction) var(--marquee-speed) linear infinite;
 }
 
@@ -296,6 +296,7 @@ nav{
         transform: translateX(0%);
     }
 }
+
 
 
 /************tendencias en comida**********/
@@ -596,6 +597,12 @@ nav{
     background-color: $color-07;
     margin-top: 120px;
     padding: 40px 20px;
+    .button{
+        @include  button
+    }
+    .button:hover{
+        @include button-hover
+    }
 }
 
 .hamsterizquierdo{
@@ -646,18 +653,18 @@ nav{
 }
 
 .gato1{
-    left: -5px;
-    top: -40px;
+    left: 10px;
+    top: 3px;
 }
 
 .gato2{
-    left: -70px;
-    top: 45px;
+    left: 5px;
+    top: 110px;
 }
 
 .gato3{
     right: 15px;
-    top: 100px;
+    top: -5px;
 }
 
 .atras{
