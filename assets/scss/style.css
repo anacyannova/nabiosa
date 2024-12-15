@@ -11976,6 +11976,21 @@ textarea.form-control-lg {
 
 .margen {
   width: 90%;
+  height: auto;
+  padding: 100px 0 80px 50px;
+}
+
+.margenpro .subtitulo {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.margenform {
+  padding: 100px 0 100px 0;
+}
+
+.paddingproductos {
+  padding-top: 50px;
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, p, .p2, .pspan, a, .a2, ul, li {
@@ -12100,6 +12115,19 @@ nav {
   color: #FFFFFF;
 }
 
+.inicio-sesion a {
+  color: #1A3572;
+}
+
+.btn-outline-dark:hover {
+  background-color: #1A3572;
+  color: #FFFFFF;
+}
+
+.fa-google {
+  padding: 10px;
+}
+
 /***************************************** HOME ************************************************/
 /***********BANNER perrito ********/
 .banner {
@@ -12121,6 +12149,11 @@ nav {
 .alimenta p {
   padding-bottom: 60px;
   color: #858585;
+}
+
+.fa-paw {
+  font-size: 20px;
+  color: #D5B91F;
 }
 
 .felicidad {
@@ -12158,18 +12191,10 @@ nav {
 }
 
 /************publicidad slider**********/
-.publicidad {
-  height: 640px;
-  padding: 120px 0 50px 0;
-}
-
 .slide {
-  padding-left: 20px;
+  padding-right: 30px;
 }
 
-.publizq {
-  padding-left: 50px;
-}
 .publizq h3, .publizq .h3 {
   padding-bottom: 20px;
 }
@@ -12253,12 +12278,6 @@ nav {
 }
 
 /************marcas**********/
-.marcas {
-  height: auto;
-  padding-top: 100px;
-  padding-bottom: 60px;
-}
-
 .logomarca {
   padding: 5px;
 }
@@ -12312,12 +12331,6 @@ nav {
   }
 }
 /************tendencias en comida**********/
-.tendencias {
-  height: auto;
-  padding-top: 100px;
-  padding-bottom: 60px;
-  padding-left: 80px;
-}
 .tendencias h4, .tendencias .h4 {
   padding-bottom: 0px;
 }
@@ -12325,26 +12338,9 @@ nav {
   padding: 15px 0;
 }
 
-.btntendencias {
-  padding: 60px 0;
-  display: flex;
-  justify-content: center;
-}
-.btntendencias .row {
-  margin-left: 0;
-  margin-right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.btntendencias .col--auto {
-  text-align: center;
-}
-
 /*galeria de productos*/
 .galeria {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  padding: 0 80px 0 80px;
 }
 .galeria .subtitulo {
   font-weight: 600;
@@ -12365,6 +12361,10 @@ nav {
 }
 
 /************encuentra tu COMUNA/MAPA**********/
+.mapa-container {
+  padding-left: 80px;
+}
+
 .container-fluid.comuna .row, .comuna.container-sm .row, .comuna.container-md .row, .comuna.container-lg .row, .comuna.container-xl .row, .comuna.container-xxl .row {
   margin-left: 0;
   margin-right: 0;
@@ -12372,9 +12372,6 @@ nav {
 
 .comuna {
   height: auto;
-  padding-top: 100px;
-  padding-bottom: 60px;
-  padding-left: 80px;
 }
 
 .menumapa {
@@ -12413,29 +12410,9 @@ nav {
 }
 
 /************blog**********/
-.container-fluid.blog, .blog.container-sm, .blog.container-md, .blog.container-lg, .blog.container-xl, .blog.container-xxl {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  height: auto;
-  padding: 40px 0;
-}
-
 .container-fluid.blog .row, .blog.container-sm .row, .blog.container-md .row, .blog.container-lg .row, .blog.container-xl .row, .blog.container-xxl .row {
   margin-left: 0;
   margin-right: 0;
-}
-
-.container-fluid.blog .col-md-8, .blog.container-sm .col-md-8, .blog.container-md .col-md-8, .blog.container-lg .col-md-8, .blog.container-xl .col-md-8, .blog.container-xxl .col-md-8 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.blog {
-  text-align: center;
-  height: auto;
-  padding: 40px 0;
 }
 
 .blogsito {
@@ -12447,7 +12424,6 @@ nav {
 }
 
 .notablog {
-  padding-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12503,6 +12479,14 @@ nav {
 }
 
 /****************************** PRODUCTO **************************************************/
+.zoom-in {
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.zoom-in:hover {
+  transform: scale(1.05);
+}
+
 .quantity-wrapper {
   display: flex;
   align-items: center;
@@ -12638,6 +12622,22 @@ nav {
   color: #EF4444;
 }
 
+.carrito-contenedor {
+  padding-bottom: 80px;
+}
+
+.product-cantidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  height: 100%;
+}
+
+.product-cantidad input {
+  width: 40px;
+}
+
 /********************************** PERROS ************************************************/
 .perro1 {
   left: 0px;
@@ -12701,8 +12701,7 @@ nav {
 
 .sidebar1 {
   background-color: #F9FAFB;
-  margin-top: 120px;
-  padding: 40px 20px;
+  padding-top: 40px;
 }
 .sidebar1 h5, .sidebar1 .h5 {
   padding-left: 40px;
@@ -12740,15 +12739,7 @@ nav {
   padding-bottom: 10px;
 }
 
-.galeriaproductosanimales {
-  padding-top: 60px;
-}
-
 /***************************************** SOBRE NOSOTROS **********************************/
-.mainnosotros {
-  padding: 50px;
-}
-
 /******************************************* DESPACHOS *************************************/
 .pajaro {
   left: -60px;
@@ -12763,10 +12754,6 @@ nav {
 .hamster2 {
   right: 25px;
   top: 80px;
-}
-
-.parrafodespachos {
-  padding: 100px 50px;
 }
 
 /************************************** TERMINOS Y CONDICIONES *******************************/
@@ -12872,10 +12859,6 @@ nav {
 
 /*********************************************** NOTICIA ****************************************/
 /********************************************* PERFIL ****************************************/
-.perfil {
-  padding: 90px 0 90px 0;
-}
-
 /*************************************** FOOTER ***********************************************/
 .footer {
   width: 90%;
