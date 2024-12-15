@@ -12099,6 +12099,26 @@ nav {
   max-width: 100%;
 }
 
+.navbar-nav .dropdown-menu {
+  background-color: #F9FAFB;
+  border: 1px solid #ddd;
+  border-radius: 0%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #4B5563;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #1A3572;
+  color: #FFFFFF;
+  border-radius: 0%;
+}
+
 /******************************************* INICIO - REGISTRO *********************************/
 .button-ancho {
   text-decoration: none;
@@ -12126,6 +12146,15 @@ nav {
 
 .fa-google {
   padding: 10px;
+}
+
+.inicio {
+  margin: 40px 0;
+}
+
+/********************************************* PERFIL ****************************************/
+.cerrarsesion {
+  margin-bottom: 80px;
 }
 
 /***************************************** HOME ************************************************/
@@ -12475,13 +12504,9 @@ nav {
   padding: 80px 0 120px 0;
 }
 
-/****************************** PRODUCTO **************************************************/
-.zoom-in {
-  transition: transform 0.3s, filter 0.3s;
-}
-
-.zoom-in:hover {
-  transform: scale(1.05);
+/****************************** PRODUCTOS **************************************************/
+.productosmain h3, .productosmain .h3, .productosmain h4, .productosmain .h4, .productosmain p, .productosmain ul {
+  padding-bottom: 12px;
 }
 
 .quantity-wrapper {
@@ -12587,6 +12612,14 @@ nav {
 }
 
 /***************************** CARRITO ****************************************************/
+.atrascarrito {
+  padding-bottom: 60px;
+}
+
+.cuerpocarrito {
+  padding-top: 60px;
+}
+
 .sidebar-total {
   background-color: #F9FAFB;
   margin-top: 120px;
@@ -12737,6 +12770,29 @@ nav {
 }
 
 /***************************************** SOBRE NOSOTROS **********************************/
+.mainnosotros {
+  padding-bottom: 90px;
+}
+
+.titulonosotros {
+  padding-bottom: 10px;
+}
+
+.subtitulonosotros {
+  padding-bottom: 20px;
+}
+
+.mision {
+  padding-bottom: 10px;
+}
+.mision p {
+  text-align: left;
+}
+
+.vision {
+  padding: 15px 0 10px 0;
+}
+
 /******************************************* DESPACHOS *************************************/
 .pajaro {
   left: -60px;
@@ -12851,11 +12907,27 @@ nav {
 }
 
 .noticia2 {
-  margin-top: 360px;
+  margin-top: 345px;
 }
 
 /*********************************************** NOTICIA ****************************************/
-/********************************************* PERFIL ****************************************/
+.articulonoticia .titulonoticia {
+  padding-bottom: 15px;
+}
+.articulonoticia p, .articulonoticia h3, .articulonoticia .h3 {
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.imgarticulo {
+  margin-bottom: 30px;
+}
+
+/**************************************** FARMACIA ********************************************/
+.farmacia {
+  margin-top: 70px;
+}
+
 /*************************************** FOOTER ***********************************************/
 .footer {
   width: 90%;

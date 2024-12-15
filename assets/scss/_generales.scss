@@ -124,6 +124,27 @@ nav{
 .navbar-brand img {
     max-width: 100%;
 }
+
+
+.navbar-nav .dropdown-menu {
+    background-color: $color-07;
+    border: 1px solid #ddd; 
+    border-radius: 0%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: $color-10;
+    padding: 10px 20px; 
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: $color-03;
+    color: $color-01;
+    border-radius: 0%;
+}
+
+
 /******************************************* INICIO - REGISTRO *********************************/
 
 
@@ -147,6 +168,14 @@ nav{
     padding: 10px;
 }
 
+.inicio{
+    margin: 40px 0;
+}
+/********************************************* PERFIL ****************************************/
+
+.cerrarsesion{
+    margin-bottom: 80px;
+}
 
 /***************************************** HOME ************************************************/
 /***********BANNER perrito ********/
@@ -487,16 +516,12 @@ nav{
 .ultimoboton{
     padding: 80px 0 120px 0;
 }
-/****************************** PRODUCTO **************************************************/
-.zoom-in {
-
-        transition: transform 0.3s, filter 0.3s; 
+/****************************** PRODUCTOS **************************************************/
+.productosmain{
+    h3, h4, p, ul{
+        padding-bottom: 12px;
+    }
 }
-    
-.zoom-in:hover {
-        transform: scale(1.05); 
-}
-
 
 .quantity-wrapper {
     display: flex;
@@ -608,6 +633,12 @@ nav{
 
 
 /***************************** CARRITO ****************************************************/
+.atrascarrito{
+    padding-bottom: 60px;
+}
+.cuerpocarrito{
+    padding-top: 60px;
+}
 
 .sidebar-total{
     background-color: $color-07;
@@ -636,7 +667,7 @@ nav{
     }
 }
 .carrito-contenedor {
-   padding-bottom: 80px;
+    padding-bottom: 80px;
 }
 .product-cantidad {
     display: flex;
@@ -644,12 +675,12 @@ nav{
     justify-content: space-between; 
     align-items: end;
     height: 100%;
-  }
-  
-  .product-cantidad input {
+}
+
+.product-cantidad input {
     width: 40px; 
-  }
-  
+}
+
 
 /********************************** PERROS ************************************************/
 .perro1{
@@ -753,7 +784,24 @@ nav{
 
 
 /***************************************** SOBRE NOSOTROS **********************************/
-
+.mainnosotros{
+    padding-bottom: 90px;
+}
+.titulonosotros{
+    padding-bottom: 10px;
+}
+.subtitulonosotros{
+    padding-bottom: 20px;
+}
+.mision{
+    padding-bottom: 10px;
+    p{
+        text-align: left;
+    }
+}
+.vision{
+    padding: 15px 0 10px 0;
+}
 /******************************************* DESPACHOS *************************************/
 .pajaro{
     left: -60px;
@@ -872,14 +920,28 @@ nav{
 }
 
 .noticia2{
-    margin-top: 360px;
+    margin-top: 345px;
 }
 
 /*********************************************** NOTICIA ****************************************/
+.articulonoticia{
+    .titulonoticia{
+        padding-bottom: 15px;
+    }
+    p, h3{
+        padding-bottom: 15px;
+        text-align: left;
+    }
+}
+.imgarticulo{
+    margin-bottom: 30px;
+}
 
+/**************************************** FARMACIA ********************************************/
+.farmacia{
+    margin-top: 70px;
+}
 
-
-/********************************************* PERFIL ****************************************/
 
 /*************************************** FOOTER ***********************************************/
 .footer {
