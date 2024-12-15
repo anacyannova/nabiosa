@@ -11,10 +11,9 @@
 .margen{
     width: $ancho-pantalla;
     height: auto;
-    padding: 100px 0 80px 50px;
+    padding: 100px 0 80px 0px;
 
 }
-
 .margenpro {
     .subtitulo{
         font-weight: $font-weight-semibold;
@@ -381,8 +380,10 @@ nav{
 }
 
 /************encuentra tu COMUNA/MAPA**********/
-.mapa-container {
-    padding-left: 80px;
+.mapa {
+    width: $ancho-pantalla;
+    height: auto;
+    padding: 0px 0px 0px 50px;
 }
 
 .container-fluid.comuna .row {
@@ -395,7 +396,6 @@ nav{
 }
 
 .menumapa {
-    width: 450px;
     border-radius: 0%;
 }
 .comunas {
@@ -965,4 +965,9 @@ nav{
         height: 24px;
     }
 }
+@media (max-width: 768px) {
+    .menumapa {
+        padding: 50px 50px 0 50px;
+    }
 
+}

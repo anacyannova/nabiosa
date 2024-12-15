@@ -11977,7 +11977,7 @@ textarea.form-control-lg {
 .margen {
   width: 90%;
   height: auto;
-  padding: 100px 0 80px 50px;
+  padding: 100px 0 80px 0px;
 }
 
 .margenpro .subtitulo {
@@ -12361,8 +12361,10 @@ nav {
 }
 
 /************encuentra tu COMUNA/MAPA**********/
-.mapa-container {
-  padding-left: 80px;
+.mapa {
+  width: 90%;
+  height: auto;
+  padding: 0px 0px 0px 50px;
 }
 
 .container-fluid.comuna .row, .comuna.container-sm .row, .comuna.container-md .row, .comuna.container-lg .row, .comuna.container-xl .row, .comuna.container-xxl .row {
@@ -12375,7 +12377,6 @@ nav {
 }
 
 .menumapa {
-  width: 450px;
   border-radius: 0%;
 }
 
@@ -12929,5 +12930,10 @@ nav {
   .navbar-nav .nav-link svg {
     width: 24px;
     height: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .menumapa {
+    padding: 50px 50px 0 50px;
   }
 }/*# sourceMappingURL=style.css.map */
