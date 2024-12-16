@@ -12509,6 +12509,14 @@ nav {
   padding-bottom: 12px;
 }
 
+.zoom-in {
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.zoom-in:hover {
+  transform: scale(1.05);
+}
+
 .quantity-wrapper {
   display: flex;
   align-items: center;
@@ -12809,6 +12817,10 @@ nav {
   top: 80px;
 }
 
+.maindespachos {
+  padding: 100px 0 150px 220px;
+}
+
 /************************************** TERMINOS Y CONDICIONES *******************************/
 .conejitos {
   left: 50px;
@@ -12825,7 +12837,7 @@ nav {
   top: -23px;
 }
 
-.parrafoterminos {
+.mainterminos {
   padding: 100px 0 150px 220px;
 }
 
