@@ -13087,9 +13087,9 @@ nav {
     display: none;
   }
   .gato1 {
-    width: 240px;
-    left: 6px;
-    top: 20px;
+    width: 180px;
+    left: 280px;
+    top: 70px;
   }
   .perro1, .perro2 {
     display: none;
@@ -13099,9 +13099,7 @@ nav {
     right: 5px;
   }
   .hamsterizquierdo {
-    width: 120px;
-    top: 65px;
-    left: 15px;
+    display: none;
   }
   .hamsterderecho {
     width: 120px;
@@ -13128,7 +13126,7 @@ nav {
   }
   .pajaritos {
     width: 150px;
-    top: -130px;
+    top: 100px;
     left: 300px;
   }
   .bander {
@@ -13150,11 +13148,6 @@ nav {
   }
   .conejitos, .conejo {
     display: none;
-  }
-  .hamster {
-    width: 120px;
-    top: -160px;
-    left: 340px;
   }
   .inicio {
     padding: 30px;
@@ -13201,7 +13194,6 @@ nav {
     white-space: normal;
     overflow-wrap: break-word;
     width: 70%;
-    text-align: center;
   }
 }
 @media (max-width: 1440px) {
@@ -13210,5 +13202,10 @@ nav {
   }
   .perro1, .perro2, .conejo, .gato2, .hamster2 {
     display: none;
+  }
+  .hamster {
+    width: 120px;
+    top: -100px;
+    left: 340px;
   }
 }/*# sourceMappingURL=style.css.map */
