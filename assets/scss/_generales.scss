@@ -25,10 +25,6 @@
     padding: 100px 0 100px 0;
 }
 
-.paddingproductos {
-    padding-top: 50px;
-}
-
 h1, h2, h3, h4, h5, p, .p2, .pspan, a, .a2, ul, li{
     font-family: $font-family-base;
 }
@@ -385,8 +381,21 @@ nav{
         padding: 15px 0;
     }
 }
+.boton-vermas .row {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.boton-vermas .col-md-2 {
+    text-align: center;
+}
 
+.boton-vermas{
+    padding: 80px 0 0 0;
+}
 /*galeria de productos*/
 .galeria{
     padding: 0 80px 0 80px;
@@ -517,6 +526,9 @@ nav{
     padding: 80px 0 120px 0;
 }
 /****************************** PRODUCTOS **************************************************/
+.paddingproductos {
+    padding-top: 50px;
+} 
 .productosmain{
     h3, h4, p, ul{
         padding-bottom: 12px;
@@ -741,7 +753,7 @@ nav{
 }
 
 .atras{
-    padding: 100px 0 0 90px;
+    padding: 20px 0 0 90px;
     a{
         font-size: $font-size-a2;
         color: $color-10;
@@ -762,12 +774,36 @@ nav{
 .sidebar2{
     background-color: $color-07;
     margin-top: 80px;
-    padding: 40px 60px;
-    li{
-        margin-left: -60px;
+    padding: 40px 30px 0px 30px;
+
+    .form-check-input {
+        margin-bottom: 18px;
+        &:checked {
+            background-color: $color-03 ; 
+        }
+
+        &:focus {
+            outline: 1px solid $color-11;
+            outline-offset: 1px; 
+        }
     }
+    .form-check-label {
+        padding-left: 10px; 
+        padding-bottom: 10px;
+        color: $color-12;
+        font-size: $font-size-a1;
+
+        &:hover {
+            font-weight: 600;
+        }
+    }
+    
 }
 .filtro{
+    padding-bottom: 50px;
+    .first {
+        padding-top: 18px;
+    }
     ul{
         list-style: none;
     }
@@ -786,6 +822,7 @@ nav{
     h5{
         color: $color-03;
         padding-bottom: 10px;
+        padding-left: 40px;
     }
 }
 
@@ -1139,6 +1176,16 @@ nav{
             padding-top: 30px;
         }
     }
+    .paddingpro {
+        padding-bottom: 50px;
+    }
+
+    .paddingproductos {
+        padding-top: 0px;
+    }  
+    .atras{
+        padding: 20px 0 0 20px;
+    }
 }
 
 
@@ -1161,5 +1208,5 @@ nav{
         white-space: normal;
         overflow-wrap: break-word; 
         }
-    }
+    }  
 }
