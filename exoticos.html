@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perros</title>
+    <title>Animales exóticos</title>
     <link rel="stylesheet" href="assets/scss/style.css">
     <script src="https://kit.fontawesome.com/be4255fc2c.js" crossorigin="anonymous"></script>
 </head>
@@ -44,20 +44,20 @@
         <div class="container-fluid mainimglanding">
             <div class="row">
                 <div class="col-md-2 position-relative">
-                    <img class="pnganimalitos perro1" src="assets/img/perro1.png" alt="perrito shiba">
+                    <img class="pnganimalitos gallina" src="assets/img/gallina.png" alt="gallina blanca">
+                </div>
+                <div class="col-md-2 position-relative">
+                    <img class="pnganimalitos jerbo" src="assets/img/jerbo.png" alt="jerbo negro">
+                </div>
+                <div class="col-md-4">
+                    <h2 class="fw-bold">Animales exóticos</h2>
                 </div>
                 <div class="col-md-2"></div>
-                <div class="col-md-4">
-                    <h2 class="fw-bold">Perros</h2>
-                </div>
                 <div class="col-md-2 position-relative">
-                    <img class="pnganimalitos perro2" src="assets/img/perro2.png" alt="perrito mirando">
-                </div>
-                <div class="col-md-2 position-relative">
-                    <img class="pnganimalitos perro3" src="assets/img/perro3.png" alt="perro orejitas al viento">
+                    <img class="pnganimalitos cata" src="assets/img/cata.png" alt="cata verde">
                 </div>
             </div>
-        </div><!--cierre row-->
+        </div><!--cierre-->
 
         <!-- navegador DOS -->
         <nav class="navegador2 navbar navbar-expand-lg">
@@ -77,7 +77,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown2">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link mascotas" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link mascotas" aria-current="page" href="perros.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Mascotas<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
                                 </svg>
@@ -108,7 +108,7 @@
     </header>
     <!--------------------------------- cuerpo del sitio -------------------------------------------------->
     <main>
-        <div class="atras">
+        <div class="atras atrasexoticos">
             <a class="goback" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
             </svg> Atrás</a>
@@ -130,117 +130,98 @@
                     </div>
                     <div class="sidebar2">
                         <h5>Filtros</h5>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckTodo">
-                            <label class="form-check-label" for="flexCheckTodo">
-                                Todo
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckSenior">
-                            <label class="form-check-label" for="flexCheckSenior">
-                                Senior
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckAdulto">
-                            <label class="form-check-label" for="flexCheckAdulto">
-                                Adulto
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckCachorros">
-                            <label class="form-check-label" for="flexCheckCachorros">
-                                Cachorros
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckSecos">
-                            <label class="form-check-label" for="flexCheckSecos">
-                                Secos
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckHumedo">
-                            <label class="form-check-label" for="flexCheckHumedo">
-                                Húmedos
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckSnacks">
-                            <label class="form-check-label" for="flexCheckSnacks">
-                                Snacks
-                            </label>
-                        </div>
-                    </div> <!--cierre de filtro selecion--> 
+                        <ul>
+                            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg> Todo</a></li>
+                            <li><a href="gatos.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg> Senior</a></li>
+                            <li><a href="gatos.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg> Adulto</a></li>
+                            <li><a href="perros.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg> Cachorros</a></li>
+                            <li><a href="perros.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg> Secos</a></li>
+                            <li><a href="exoticos.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg> Húmedos</a></li>
+                            <li><a href="exoticos.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                            </svg> Snacks</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-9"><!----galeria de productos---->
                     <div class="margenpro container-fluid galeriaproductosanimales">
                         <div class="row">
-                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in paddingpro">
+                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
                                 <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/APNB Dog raza mediana 20kg.png" alt="animal planet nutribalance">
+                                <img src="assets/img/loopalpiste.png" class="img-fluid" alt="loop alpiste">
                                 </a>
-                                <p class="p2 subtitulo">animal planet mutribalance dog adult medium-large breed 20 kg</p>
+                                <p class="p2 subtitulo">alimento loop alpiste 1kg</p>
                             </div>
-                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in paddingpro">
+                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
                                 <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/dogchow carne y pollo 24kg.png" alt="dog chow perro razas grandes">
+                                <img src="assets/img/loopcanarios.png" class="img-fluid" alt="loop canarios">
                                 </a>
-                                <p class="p2 subtitulo">medianas/grandes carne y pollo 24 kg</p>
+                                <p class="p2 subtitulo">alimento loop para canarios 1kg</p>
                             </div>
-                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in paddingpro">
+                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
                                 <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/charly25kg.png" alt="charly 25kg">
+                                <img src="assets/img/loopconejos.png" class="img-fluid" alt="loop conejos">
                                 </a>
-                                <p class="p2 subtitulo">charly x 25 kg</p>
+                                <p class="p2 subtitulo">alimento loop para conejos 1kg</p>
                             </div>
                         </div><!-- cierre de row -->
                     </div><!--cierre container-->
                     <!----galeria de productos DOS---->
                     <div class="margenpro container-fluid galeriaproductosanimales">
                         <div class="row paddingproductos">
-                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in paddingpro">
+                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
                                 <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/champmix22kg.png" alt="champ mix perros">
+                                <img src="assets/img/semillagirasol.jpg" class="img-fluid" alt="semillas de girasol">
                                 </a>
-                                <p class="p2 subtitulo">champ adulto mix de carnes x 22 kg</p>
+                                <p class="p2 subtitulo">semilla girasol kg</p>
                             </div>
-                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in paddingpro">
+                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
                                 <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/dogselection 15kg.png" alt="dog selection">
+                                <img src="assets/img/rabitosaco.png" class="img-fluid" alt="rabito">
                                 </a>
-                                <p class="p2 subtitulo">dog selection criadores adulto raza pequeña x 15 kg</p>
+                                <p class="p2 subtitulo">alimento conejo rabito 20kg</p>
                             </div>
-                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in paddingpro">
+                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
                                 <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/dogchow24kg.png" alt="charly">
+                                <img src="assets/img/loopjerbos.png" class="img-fluid" alt="alimento loop para jerbos">
                                 </a>
-                                <p class="p2 subtitulo">dog chow cachorro razas pequeñas x 24 kg</p>
+                                <p class="p2 subtitulo">alimento loop para hamster y jerbos 1kg</p>
                             </div>
                         </div><!-- cierre de row -->
                     </div><!--cierre container DOS-->
                     <!----galeria de productos TRES---->
                     <div class="margenpro container-fluid galeriaproductosanimales">
                         <div class="row paddingproductos">
-                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in paddingpro">
+                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
                                 <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/APNB Dog raza mediana 20kg.png" alt="animal planet nutribalance">
+                                <img src="assets/img/loopcatas.png" class="img-fluid" alt="loop catas">
                                 </a>
-                                <p class="p2 subtitulo">animal planet mutribalance dog adult medium-large breed 20 kg</p>
-                            </div>
-                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in paddingpro">
-                                <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/dogchow carne y pollo 24kg.png" alt="dog chow perro razas grandes">
-                                </a>
-                                <p class="p2 subtitulo">medianas/grandes carne y pollo 24 kg</p>
+                                <p class="p2 subtitulo">alimento loop para catas 1kg</p>
                             </div>
                             <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
                                 <a class="productos" href="../nabiosa/productos.html">
-                                <img src="assets/img/charly25kg.png" alt="charly 25kg">
+                                <img src="assets/img/maiz.jpg" class="img-fluid" alt="maiz">
                                 </a>
-                                <p class="p2 subtitulo">charly x 25 kg</p>
+                                <p class="p2 subtitulo">maiz kg</p>
+                            </div>
+                            <div class="col-md-4 d-flex flex-column align-items-center zoom-in">
+                                <a class="productos" href="../nabiosa/productos.html">
+                                <img src="assets/img/rabitosaco.png" class="img-fluid" alt="rabito">
+                                </a>
+                                <p class="p2 subtitulo">alimento conejo rabito 20kg</p>
                             </div>
                         </div><!-- cierre de row -->
                     </div><!--cierre container TRES-->

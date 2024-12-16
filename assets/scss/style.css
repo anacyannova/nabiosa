@@ -12401,6 +12401,10 @@ nav {
   cursor: pointer;
 }
 
+.galeriaproductosanimales p {
+  padding-top: 20px;
+}
+
 /************encuentra tu COMUNA/MAPA**********/
 .mapa {
   width: 90%;
@@ -12816,6 +12820,24 @@ nav {
   padding-left: 40px;
 }
 
+/****************************** ANIMALES EXOTICOS *****************************************/
+.gallina {
+  width: 165px;
+  left: 45px;
+  top: -12px;
+}
+
+.jerbo {
+  width: 180px;
+  top: 70px;
+}
+
+.cata {
+  width: 340px;
+  left: -95px;
+  top: -12px;
+}
+
 /***************************************** SOBRE NOSOTROS **********************************/
 .mainnosotros {
   padding-bottom: 90px;
@@ -12842,12 +12864,12 @@ nav {
 
 /******************************************* DESPACHOS *************************************/
 .pajaro {
-  left: -60px;
+  left: -30px;
   transform: translateY(-15px);
 }
 
 .pajaritos {
-  left: 25px;
+  left: -60px;
   top: -3px;
 }
 
@@ -12872,8 +12894,8 @@ nav {
 }
 
 .hamster {
-  right: 25px;
-  top: -23px;
+  right: 45px;
+  top: 5px;
 }
 
 .mainterminos {
@@ -13106,8 +13128,8 @@ nav {
   }
   .pajaritos {
     width: 150px;
-    top: 95px;
-    left: -12px;
+    top: -130px;
+    left: 300px;
   }
   .bander {
     margin-top: 90px;
@@ -13126,12 +13148,13 @@ nav {
   .marcas, .tendencias, .comuna, .blog {
     padding-left: 40px;
   }
-  .conejitos, .hamster {
+  .conejitos, .conejo {
     display: none;
   }
-  .conejo {
-    top: -25px;
-    left: 20px;
+  .hamster {
+    width: 120px;
+    top: -160px;
+    left: 340px;
   }
   .inicio {
     padding: 30px;
@@ -13166,23 +13189,26 @@ nav {
   .atras {
     padding: 20px 0 0 20px;
   }
-}
-@media (max-width: 1440px) {
-  .notablog {
-    padding-bottom: 50px;
-  }
-  .perro1, .perro2 {
+  .cata, .gallina {
     display: none;
   }
-  .hamster {
-    display: none;
-  }
-  .gato2 {
-    display: none;
+  .jerbo {
+    top: 70px;
+    left: 300px;
   }
   .mainimglanding h2, .mainimglanding .h2 {
     word-wrap: break-word;
     white-space: normal;
     overflow-wrap: break-word;
+    width: 70%;
+    text-align: center;
+  }
+}
+@media (max-width: 1440px) {
+  .notablog {
+    padding-bottom: 50px;
+  }
+  .perro1, .perro2, .conejo, .gato2, .hamster2 {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
