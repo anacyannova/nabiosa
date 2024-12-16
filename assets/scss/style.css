@@ -12907,7 +12907,12 @@ nav {
 }
 
 .noticia2 {
-  margin-top: 345px;
+  margin-top: 60px;
+}
+
+.publiblog {
+  padding-left: 30px;
+  padding-top: 40px;
 }
 
 /*********************************************** NOTICIA ****************************************/
@@ -13005,9 +13010,119 @@ nav {
   .notablog {
     padding-bottom: 50px;
   }
+  .gato2, .gato3 {
+    display: none;
+  }
+  .gato1 {
+    width: 240px;
+    left: 6px;
+    top: 20px;
+  }
+  .perro1, .perro2 {
+    display: none;
+  }
+  .perro3 {
+    top: -130px;
+    right: 5px;
+  }
+  .hamsterizquierdo {
+    width: 120px;
+    top: 65px;
+    left: 15px;
+  }
+  .hamsterderecho {
+    width: 120px;
+    top: -90px;
+    right: 15px;
+  }
+  .hamster2 {
+    display: none;
+  }
+  .pajaro {
+    display: none;
+  }
+  .maindespachos, .mainterminos {
+    width: 100%;
+    padding-left: 30px;
+    flex-wrap: wrap;
+  }
+  .parrafodespachos, .parrafoterminos {
+    padding-left: 50px;
+    padding-right: 50px;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+  .pajaritos {
+    width: 150px;
+    top: 95px;
+    left: -12px;
+  }
+  .bander {
+    margin-top: 90px;
+  }
+  .perri {
+    left: 3px;
+    width: 480px;
+    top: 10px;
+  }
+  .publizq {
+    padding-left: 40px;
+  }
+  .publizq h3, .publizq .h3 {
+    padding-top: 30px;
+  }
+  .marcas, .tendencias, .comuna, .blog {
+    padding-left: 40px;
+  }
+  .conejitos, .hamster {
+    display: none;
+  }
+  .conejo {
+    top: -25px;
+    left: 20px;
+  }
+  .inicio {
+    padding: 30px;
+  }
+  .mainnosotros, .costadonosotros {
+    padding: 0 40px 40px 40px;
+  }
+  .mision {
+    padding-top: 40px;
+  }
+  .pajaronosotros {
+    display: none;
+  }
+  .articulonoticia {
+    padding: 30px;
+  }
+  .perfil {
+    padding: 0 40px 0 40px;
+  }
+  .productosmain {
+    padding: 40px 30px 0 30px;
+  }
+  .productosmain h3, .productosmain .h3 {
+    padding-top: 30px;
+  }
 }
 @media (max-width: 1440px) {
   .notablog {
     padding-bottom: 50px;
+  }
+  .perro1, .perro2 {
+    display: none;
+  }
+  .hamster {
+    display: none;
+  }
+  .gato2 {
+    display: none;
+  }
+  .mainimglanding h2, .mainimglanding .h2 {
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 }/*# sourceMappingURL=style.css.map */
