@@ -12046,7 +12046,6 @@ p {
 }
 .iconologo .navbar-brand {
   padding: 0px;
-  margin: 0px;
 }
 .iconologo a {
   font-size: 24px; /*LETRAS LOGO o H1 + a*/
@@ -12142,10 +12141,6 @@ nav {
 
 .fa-google {
   padding: 10px;
-}
-
-.inicio {
-  margin: 40px 0;
 }
 
 /********************************************* PERFIL ****************************************/
@@ -12646,6 +12641,7 @@ nav {
 
 .cuerpocarrito {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .sidebar-total {
@@ -13126,7 +13122,7 @@ nav {
   }
   .pajaritos {
     width: 150px;
-    top: 100px;
+    top: -60px;
     left: 300px;
   }
   .bander {
