@@ -1081,7 +1081,7 @@ nav{
 @media (max-width: 768px) {
         .jerbo, .gato1, .gato2, .gato3, .perro1, .perro2, .perro3, 
         .hamsterizquierdo, .hamsterderecho, .hamster2, .pajaro, .pajaritos, 
-        .conejitos, .conejo, .pajaronosotros, .cata, .gallina, .cutecat, .bander-blog, .search-bar {
+        .conejitos, .conejo, .pajaronosotros, .cata, .gallina, .cutecat, .bander-blog, .search-bar, .pnganimalitos {
             display: none;
         }
     
@@ -1170,6 +1170,9 @@ nav{
     
         .paddingpro {
             padding-bottom: 50px;
+        }
+        .fa-brands:before, .fa-regular:before, .fa-solid:before, .fa:before, .fab:before, .far:before, .fas:before {
+            display: none;
         }
     
         .paddingproductos {
