@@ -13129,69 +13129,85 @@ nav {
     margin-top: 90px;
   }
   .perri {
-    left: 3px;
-    width: 480px;
-    top: 10px;
-  }
-  .publizq {
-    padding-left: 40px;
-  }
-  .publizq h3, .publizq .h3 {
-    padding-top: 30px;
-  }
-  .marcas, .tendencias, .comuna, .blog {
-    padding-left: 40px;
-  }
-  .conejitos, .conejo {
-    display: none;
-  }
-  .inicio {
-    padding: 30px;
-  }
-  .mainnosotros, .costadonosotros {
-    padding: 0 40px 40px 40px;
-  }
-  .mision {
-    padding-top: 40px;
-  }
-  .pajaronosotros {
-    display: none;
-  }
-  .articulonoticia {
-    padding: 30px;
-  }
-  .perfil {
-    padding: 0 40px 0 40px;
-  }
-  .productosmain {
-    padding: 40px 30px 0 30px;
-  }
-  .productosmain h3, .productosmain .h3 {
-    padding-top: 30px;
-  }
-  .paddingpro {
-    padding-bottom: 50px;
-  }
-  .paddingproductos {
-    padding-top: 0px;
-  }
-  .atras {
-    padding: 20px 0 0 20px;
-  }
-  .cata, .gallina {
-    display: none;
-  }
-  .jerbo {
+    left: auto;
+    width: 420px;
     top: 70px;
-    left: 300px;
-  }
-  .mainimglanding h2, .mainimglanding .h2 {
-    word-wrap: break-word;
-    white-space: normal;
-    overflow-wrap: break-word;
-    width: 70%;
   }
 }
+.publizq {
+  padding-left: 40px;
+}
+.publizq h3, .publizq .h3 {
+  padding-top: 30px;
+}
+
+.marcas, .tendencias, .comuna, .blog {
+  padding-left: 40px;
+}
+
+.conejitos, .conejo {
+  display: none;
+}
+
+.inicio {
+  padding: 30px;
+}
+
+.mainnosotros, .costadonosotros {
+  padding: 0 40px 40px 40px;
+}
+
+.mision {
+  padding-top: 40px;
+}
+
+.pajaronosotros {
+  display: none;
+}
+
+.articulonoticia {
+  padding: 30px;
+}
+
+.perfil {
+  padding: 0 40px 0 40px;
+}
+
+.productosmain {
+  padding: 40px 30px 0 30px;
+}
+.productosmain h3, .productosmain .h3 {
+  padding-top: 30px;
+}
+
+.paddingpro {
+  padding-bottom: 50px;
+}
+
+.paddingproductos {
+  padding-top: 0px;
+}
+
+.atras {
+  padding: 20px 0 0 20px;
+}
+
+.cata, .gallina {
+  display: none;
+}
+
+.jerbo {
+  top: 70px;
+  left: 300px;
+}
+
+.mainimglanding h2, .mainimglanding .h2 {
+  word-wrap: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
+  width: 70%;
+}
+
 @media (max-width: 1440px) {
   .notablog {
     padding-bottom: 50px;
