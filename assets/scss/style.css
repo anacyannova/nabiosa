@@ -12201,6 +12201,13 @@ nav {
   min-height: 455px;
 }
 
+.bander-blog {
+  background-color: #1A3572;
+  z-index: 1;
+  position: relative;
+  min-height: 455px;
+}
+
 .perri {
   left: -108px;
   top: -10px;
@@ -13063,9 +13070,10 @@ nav {
 /***************************************** RESPONSIVE **************************/
 /*******navegador*********/
 @media (max-width: 768px) {
-  .jerbo {
-    left: 250px;
-    width: 160px;
+  .jerbo, .gato1, .gato2, .gato3, .perro1, .perro2, .perro3,
+  .hamsterizquierdo, .hamsterderecho, .hamster2, .pajaro, .pajaritos,
+  .conejitos, .conejo, .pajaronosotros, .cata, .gallina, .cutecat, .bander-blog, .search-bar {
+    display: none;
   }
   .texto-ocultar {
     display: none;
@@ -13083,34 +13091,10 @@ nav {
   .notablog {
     padding-bottom: 50px;
   }
-  .gato2, .gato3 {
-    display: none;
-  }
-  .gato1 {
-    width: 180px;
-    left: 280px;
+  .perri {
+    left: auto;
+    width: 420px;
     top: 70px;
-  }
-  .perro1, .perro2 {
-    display: none;
-  }
-  .perro3 {
-    top: -130px;
-    right: 5px;
-  }
-  .hamsterizquierdo {
-    display: none;
-  }
-  .hamsterderecho {
-    width: 120px;
-    top: -90px;
-    right: 15px;
-  }
-  .hamster2 {
-    display: none;
-  }
-  .pajaro {
-    display: none;
   }
   .maindespachos, .mainterminos {
     width: 100%;
@@ -13124,18 +13108,8 @@ nav {
     white-space: normal;
     overflow-wrap: break-word;
   }
-  .pajaritos {
-    width: 150px;
-    top: -60px;
-    left: 300px;
-  }
   .bander {
     margin-top: 90px;
-  }
-  .perri {
-    left: auto;
-    width: 420px;
-    top: 70px;
   }
   .publizq {
     padding-left: 40px;
@@ -13146,9 +13120,6 @@ nav {
   .marcas, .tendencias, .comuna, .blog {
     padding-left: 40px;
   }
-  .conejitos, .conejo {
-    display: none;
-  }
   .inicio {
     padding: 30px;
   }
@@ -13157,9 +13128,6 @@ nav {
   }
   .mision {
     padding-top: 40px;
-  }
-  .pajaronosotros {
-    display: none;
   }
   .articulonoticia {
     padding: 30px;
@@ -13182,17 +13150,32 @@ nav {
   .atras {
     padding: 20px 0 0 20px;
   }
-  .cata, .gallina {
-    display: none;
-  }
-  .jerbo {
-    top: 70px;
-  }
   .mainimglanding h2, .mainimglanding .h2 {
     word-wrap: break-word;
     white-space: normal;
     overflow-wrap: break-word;
-    width: 70%;
+    width: 100%;
+  }
+  .iconologo {
+    display: flex;
+    justify-content: center;
+  }
+  .iconologo .logo {
+    width: 60px;
+    height: auto;
+  }
+  .iconologo .navbar-brand {
+    padding: 0;
+  }
+  .iconologo a {
+    font-size: 18px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+  }
+  .iconologo h1, .iconologo .h1 {
+    margin: 0;
   }
 }
 @media (max-width: 768px) and (max-width: 1440px) {

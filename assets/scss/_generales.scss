@@ -211,6 +211,12 @@ nav{
     position: relative;
     min-height: 455px;
 }
+.bander-blog {
+    background-color: $color-03;
+    z-index: 1;
+    position: relative;
+    min-height: 455px;
+}
 .perri{
     left: -108px;
     top: -10px;
@@ -1073,149 +1079,139 @@ nav{
 /*******navegador*********/
 
 @media (max-width: 768px) {
-    .jerbo {
-        left: 250px;
-        width: 160px;
-    }
-    .texto-ocultar {
-        display: none;
-    }
-
-    .navbar-nav .nav-item {
-        margin-left: 5px;
-    }
-
-    .navbar-nav .nav-link svg {
-        width: 24px;
-        height: 24px;
-    }
-    .menumapa {
-        padding: 50px 50px 0 50px;
-    }
-
-    .notablog {
-        padding-bottom: 50px;
-    }
-
-    .gato2, .gato3{
-        display: none;
-    }
-    .gato1{
-        width: 180px;
-        left: 280px;
-        top: 70px;
-    }
-    .perro1, .perro2{
-        display: none;
-    }
-    .perro3{
-        top: -130px;
-        right:  5px; 
-    }
-    .hamsterizquierdo{
-        display: none;
-    }
-    .hamsterderecho{
-        width:120px;
-        top: -90px;
-        right: 15px;
-    }
-    .hamster2{
-        display: none;
-    }
-    .pajaro{
-        display: none;
-    }
-    .maindespachos, .mainterminos{
-        width: 100%;
-        padding-left: 30px;
-        flex-wrap: wrap;
-    }
-    .parrafodespachos, .parrafoterminos{
-        padding-left: 50px;
-        padding-right: 50px;
-        word-wrap: break-word;
-        white-space: normal;
-        overflow-wrap: break-word; 
-    }
-    .pajaritos{
-        width: 150px;
-        top: -60px;
-        left: 300px;
-    }
-    .bander{
-        margin-top: 90px;
-    }
-    .perri{
-        left: auto;
-        width: 420px;
-        top: 70px;
-    }
+        .jerbo, .gato1, .gato2, .gato3, .perro1, .perro2, .perro3, 
+        .hamsterizquierdo, .hamsterderecho, .hamster2, .pajaro, .pajaritos, 
+        .conejitos, .conejo, .pajaronosotros, .cata, .gallina, .cutecat, .bander-blog, .search-bar {
+            display: none;
+        }
     
-    .publizq{
-        padding-left: 40px;
-        h3{
+        .texto-ocultar {
+            display: none;
+        }
+    
+        .navbar-nav .nav-item {
+            margin-left: 5px;
+        }
+    
+        .navbar-nav .nav-link svg {
+            width: 24px;
+            height: 24px;
+        }
+    
+        .menumapa {
+            padding: 50px 50px 0 50px;
+        }
+    
+        .notablog {
+            padding-bottom: 50px;
+        }
+    
+        .perri {
+            left: auto;
+            width: 420px;
+            top: 70px;
+        }
+    
+        .maindespachos, .mainterminos {
+            width: 100%;
+            padding-left: 30px;
+            flex-wrap: wrap;
+        }
+    
+        .parrafodespachos, .parrafoterminos {
+            padding-left: 50px;
+            padding-right: 50px;
+            word-wrap: break-word;
+            white-space: normal;
+            overflow-wrap: break-word; 
+        }
+    
+        .bander {
+            margin-top: 90px;
+        }
+    
+        .publizq {
+            padding-left: 40px;
+        }
+        .publizq h3 {
             padding-top: 30px;
         }
-    }
-    .marcas, .tendencias, .comuna, .blog{
-        padding-left: 40px;
-    }
-
-    .conejitos, .conejo{
-        display: none;
-    }
     
-    .inicio{
-        padding: 30px;
-    }
-    .mainnosotros, .costadonosotros{
-        padding: 0 40px 40px 40px;
-    }
-    .mision{
-        padding-top: 40px;
-    }
-    .pajaronosotros{
-        display: none;
-    }
-    .articulonoticia{
-        padding: 30px;
-    }
-    .perfil{
-        padding: 0 40px 0 40px;
-    }
-    .productosmain{
-        padding: 40px 30px 0 30px;
-        h3{
+        .marcas, .tendencias, .comuna, .blog {
+            padding-left: 40px;
+        }
+    
+        .inicio {
+            padding: 30px;
+        }
+    
+        .mainnosotros, .costadonosotros {
+            padding: 0 40px 40px 40px;
+        }
+    
+        .mision {
+            padding-top: 40px;
+        }
+    
+        .articulonoticia {
+            padding: 30px;
+        }
+    
+        .perfil {
+            padding: 0 40px 0 40px;
+        }
+    
+        .productosmain {
+            padding: 40px 30px 0 30px;
+        }
+        .productosmain h3 {
             padding-top: 30px;
         }
-    }
-    .paddingpro {
-        padding-bottom: 50px;
-    }
-
-    .paddingproductos {
-        padding-top: 0px;
-    } 
-    .atras{
-        padding: 20px 0 0 20px;
-    }
-    .cata, .gallina{
-        display: none;
-    }
-    .jerbo{
-        top: 70px;
-    }
-    .mainimglanding{
-        h2{
-        word-wrap: break-word;
-        white-space: normal;
-        overflow-wrap: break-word;
-        width: 70%;
+    
+        .paddingpro {
+            padding-bottom: 50px;
         }
-    }
-
-
+    
+        .paddingproductos {
+            padding-top: 0px;
+        } 
+    
+        .atras {
+            padding: 20px 0 0 20px;
+        }
+    
+        .mainimglanding h2 {
+            word-wrap: break-word;
+            white-space: normal;
+            overflow-wrap: break-word;
+            width: 100%;
+        }
+        .iconologo {
+            display: flex;
+            justify-content: center;
+        
+            .logo {
+                width: 60px;
+                height: auto;
+            }
+        
+            .navbar-brand {
+                padding: 0;
+            }
+        
+            a {
+                font-size: 18px;
+                white-space: nowrap;
+                text-decoration: none;
+                color: $color-04;
+                display: flex;
+            }
+        
+            h1 {
+                margin: 0;
+            }
+        }
+        
 @media (max-width: 1440px) {
     .notablog {
         padding-bottom: 50px;
