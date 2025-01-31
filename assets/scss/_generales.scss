@@ -1073,6 +1073,10 @@ nav{
 /*******navegador*********/
 
 @media (max-width: 768px) {
+    .jerbo {
+        left: 250px;
+        width: 160px;
+    }
     .texto-ocultar {
         display: none;
     }
@@ -1147,7 +1151,7 @@ nav{
         width: 420px;
         top: 70px;
     }
-    }
+    
     .publizq{
         padding-left: 40px;
         h3{
@@ -1201,7 +1205,6 @@ nav{
     }
     .jerbo{
         top: 70px;
-        left: 300px;
     }
     .mainimglanding{
         h2{
@@ -1225,4 +1228,5 @@ nav{
         top: -100px;
         left: 340px;
     }
+}
 }
